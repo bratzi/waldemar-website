@@ -1,0 +1,30 @@
+//WELCOME
+#section0 {
+    display: flex;
+    padding: 20px;
+    .layer>.container-fluid {
+        //margin-top: 150px;
+    }
+    .col-md-offset-1 .col-md-7 {
+        padding-top: 10px;
+    }
+    .avatar-wrapper {
+        img {}
+    }
+    .video-overlay {
+        opacity: .6;
+        background: #43cea2;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #185a9d, #43cea2);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        //        background: #79316e;
+        //        background: -moz-linear-gradient(top, #79316e 0%, #1f2653 100%);
+        //        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #79316e), color-stop(100%, #1f2653));
+        //        background: -webkit-linear-gradient(top, #79316e 0%, #1f2653 100%);
+        //        background: -o-linear-gradient(top, #79316e 0%, #1f2653 100%);
+        //        background: -ms-linear-gradient(top, #79316e 0%, #1f2653 100%);
+        //        background: linear-gradient(to bottom, #79316e 0%, #1f2653 100%); 
+    }
+}

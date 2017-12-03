@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+
+@font-face {
+    font-family: 'theflower';
+    src: url('theflowercity-webfont.woff2') format('woff2'),
+         url('theflowercity-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $dark;
+    small {
+        font-size: 36px;
+        color: $darker;
+        font-weight: 100;
+    }
+    span { 
+        font-weight: 100;
+        color: white;
+    }
+} 
+
+h3 {}

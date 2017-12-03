@@ -1,0 +1,97 @@
+//UXUI
+//OLD
+
+#section4 {
+    background-size:115% 115%;
+    background-image: url(/img/uxuibg.jpg);
+    background-repeat: no-repeat;
+    h2 {
+        color: white;
+        small {
+            font-size: 26px;
+            color: white;
+        }
+        p {
+            font-weight: 100;
+            font-size: 18px;
+            color: $mid;
+            margin-top: 10px;
+            line-height: 20px;
+        }
+    }
+    .video-overlay {
+        opacity: 1;
+        background: rgba(39, 147, 218, 1);
+        background: -moz-linear-gradient(-45deg, rgba(39, 147, 218, 1) 0%, rgba(53, 224, 187, 1) 75%, rgba(53, 224, 187, 1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(39, 147, 218, 1)), color-stop(75%, rgba(53, 224, 187, 1)), color-stop(100%, rgba(53, 224, 187, 1)));
+        background: -webkit-linear-gradient(-45deg, rgba(39, 147, 218, 1) 0%, rgba(53, 224, 187, 1) 75%, rgba(53, 224, 187, 1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(39, 147, 218, 1) 0%, rgba(53, 224, 187, 1) 75%, rgba(53, 224, 187, 1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(39, 147, 218, 1) 0%, rgba(53, 224, 187, 1) 75%, rgba(53, 224, 187, 1) 100%);
+        background: linear-gradient(135deg, rgba(39, 147, 218, 1) 0%, rgba(53, 224, 187, 1) 75%, rgba(53, 224, 187, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2793da', endColorstr='#35e0bb', GradientType=1);
+        -webkit-mask-image: url(/img/bgMaskChar.png);
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        -webkit-mask-position: 100% 100%;
+        width: 115%;
+        height: 115%;
+    }
+    .fa-heartbeat {
+        color: red;
+    }
+    .ideaBox {
+        position: absolute;
+        max-width: 250px;
+    }
+    
+    h4 {
+        text-transform: none;
+        font-size: 18px;
+        margin: 0;
+        padding: 17px;
+    }
+    img {
+        max-width: 247px;
+    }
+    .head {
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        background-color: $highlight;
+    }
+    .wrapper {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        background-color: $dark;
+        p {
+            color: white;
+            font-size: 11px;
+            margin: 5px;
+        }
+        .lead {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+}
+#box1 {
+    top: 250px !important;
+    left: 80px !important;
+}
+
+#box2 {
+    top: 350px !important;
+    left: 350px !important;
+}
+
+#box3 {
+    top: 450px !important;
+    left: 80px !important;
+}
+
+#box4 {
+    top: 760px !important;
+    left: 350px !important;
+}

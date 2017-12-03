@@ -1,0 +1,23 @@
+{
+    "sass.enabled": false,
+    "path": {
+        "scss/*.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "includePaths": [
+                    "scss/"
+                ],
+                "imagePath": null,
+                "outputDir": "../css/",
+                "sourceComments": true,
+                "outputStyle": "Nested"
+            },
+            "linting.collapsed": false,
+            "useTabChar": false,
+            "mikaeljorhult.bracketsPHPLintTools.php-available": false,
+            "extensions.sort": "downloadCount",
+            "brackets.linkfile.droparea": true,
+            "hirse.outline.enabled": false
+        }
+    }
+}

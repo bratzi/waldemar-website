@@ -1,0 +1,16 @@
+body{
+	font-family: 'Roboto', sans-serif;
+    color: red;
+}
+.fullpage {
+    @media(max-width:767px){width:calc(100% - 150px);}
+    @media(min-width:768px){width:calc(100% - 150px);}
+    @media(min-width:992px){width:calc(100% - 200px);}
+    @media(min-width:1200px){width:calc(100% - 300px);}
+}
+.scene{
+    position: absolute !important;
+    pointer-events: auto !important;
+    height:100%;
+    width:100%;
+}

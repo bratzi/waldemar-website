@@ -1,0 +1,51 @@
+//.nav-toggle {
+//    cursor: pointer;
+//    margin:60px 80px 15px 0px;
+//    float: right;
+//    position: static;
+//    z-index: 1000;
+//    &:hover >span {
+//        background: $blue;
+//        &:after {
+//            background: $blue;
+//        }
+//        &:before {
+//            background: $blue;
+//        }
+//    }
+//    span {
+//        cursor: pointer;
+//        border-radius: 1px;
+//        height: 2px; 
+//        width: 42px;
+//        background: #fff;
+//        position: absolute;
+//        display: block;
+//        content: '';
+//        transition: all .3s ease-in-out;
+//        &:after {
+//            cursor: pointer;
+//            border-radius: 1px;
+//            height: 2px;
+//            width: 42px;
+//            background: #fff;
+//            position: absolute;
+//            display: block;
+//            content: '';
+//            transition: all .3s ease-in-out;
+//            bottom: -10px;
+//        }
+//        &:before {
+//            cursor: pointer;
+//            border-radius: 1px; 
+//            height: 2px;
+//            width: 42px;
+//            background: #fff;
+//            position: absolute;
+//            display: block;
+//            content: '';
+//            transition: all .3s ease-in-out;
+//            bottom: +10px;
+//        }
+//    }
+//}

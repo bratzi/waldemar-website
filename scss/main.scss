@@ -1,0 +1,41 @@
+@import 'base/reset';
+@import 'base/colors';
+@import 'base/typography';
+@import 'base/icons';
+
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/functions";
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/section";
+@import "layout/sidemenu";
+
+@import "components/buttons";
+//@import "components/navigation";  
+@import "components/preloader";
+@import "components/scrollanimation"; 
+@import "components/videobackground"; 
+@import "components/avatar";
+@import "components/typeit";
+@import "components/expbox"; 
+@import "components/swing";
+@import "components/cycle";
+@import "components/bar";
+@import "components/ideabox";
+ 
+@import "sections/section0"; 
+@import "sections/section1";
+@import "sections/section2";
+@import "sections/section3"; 
+@import "sections/section4"; 
+@import "sections/section5";  
+@import "sections/section6"; 
+@import "sections/section7"; 
+
+       
+@import "themes/theme";
+    
+@import "vendors/bootstrap";     
+@import "vendors/jquery.fullPage"; 

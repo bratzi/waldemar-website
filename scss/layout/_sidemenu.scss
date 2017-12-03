@@ -1,0 +1,215 @@
+//vars für linkanimation des Sidemenus
+$thick: 1px;
+$pad: 0em;
+$extra: calc(#{$pad} * 1.2);
+.sidemenu {
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    display:block;
+    justify-content: center;
+    z-index: 1; //background-color: rgba(12, 20, 45, 1);
+    background-color: $dark;
+    overflow: hidden;
+    padding: 0px 10px;
+    -webkit-box-shadow: inset -16px 0px 41px -10px rgba(0,0,0,0.50);
+    -moz-box-shadow: inset -16px 0px 41px -10px rgba(0,0,0,0.50);
+    box-shadow: inset -16px 0px 41px -10px rgba(0,0,0,0.50);
+    @media(max-width: 767px) {
+        width: 150px;
+        .navi-wrapper {
+            margin-top: 40px;
+        }
+    }
+    @media(min-width:768px) {
+        width: 150px;
+    }
+    @media(min-width:992px) {
+        width: 200px;
+    }
+    @media(min-width:1200px) {
+        width: 300px;
+        .avatar {
+            -webkit-box-shadow: 0px 30px 40px 6px rgba(0, 0, 0, 0.3);
+            -moz-box-shadow: 0px 30px 40px 6px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 30px 40px 6px rgba(0, 0, 0, 0.3);
+        }
+        .navi-wrapper {
+            margin-top: 40px;
+        }
+    }
+
+    hr {
+        margin: 10px 0px;
+        border-top: 1px dashed $mid;
+    }
+    .avatar-wrapper {
+        position: relative;
+        overflow: hidden;
+        .title_small {
+            color: $light;
+        }
+        .logo-nav {
+            max-width: 150px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .title {
+            font-size: 2em;
+            line-height: 1em;
+            strong {
+                font-weight: bolder;
+                color: $highlight;
+            }
+        }
+    }
+    .navi-wrapper {
+        .NavTitle {
+            margin: 0px;
+            margin-top: 10px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            font-size: 12px;
+            color: $mid;
+        }
+         
+        ul {
+            list-style-type: none;
+            display: table;
+            width: 100%;
+            height: 100%; //LINKANIMATION____________________
+            li {
+                width: 100%;
+                line-height: 48px;
+                text-transform: uppercase;
+                font-size: 12px;
+                letter-spacing: 5px;
+                display: table-row;
+                a {
+                    transition: background 3s cubic-bezier(.2, 0, 0, 1);
+                    transition: font-size 1s;
+                    margin-bottom: 10px;
+                    text-decoration: none;
+                    display: block;
+                    color: whitesmoke;
+                    border: $thick solid transparent;
+                    position: relative;
+                    .text {
+                        letter-spacing: 6px;
+                        padding: 0 1em;
+                        transform: translate3d(0, $pad, 0);
+                        transition: transform 0.4s cubic-bezier(.2, 0, 0, 1) 0.4s;
+                    }
+                    &:after {
+                        position: absolute;
+                        content: '';
+                        bottom: -$thick;
+                        left: $extra;
+                        right: $extra;
+                        height: $thick;
+                        background: $light;
+                        z-index: -1;
+                        transition: transform 0.8s cubic-bezier(1, 0, .37, 1) 0.2s, right 0.2s cubic-bezier(.04, .48, 0, 1) 0.6s, left 0.4s cubic-bezier(.04, .48, 0, 1) 0.6s;
+                        transform-origin: left;
+                    }
+                }
+                .line {
+                    position: absolute;
+                    background: $light;
+                    &.-right,
+                    &.-left {
+                        width: $thick;
+                        bottom: -$thick;
+                        top: -$thick;
+                        transform: scale3d(1, 0, 1);
+                    }
+                    &.-top,
+                    &.-bottom {
+                        height: $thick;
+                        left: -$thick;
+                        right: -$thick;
+                        transform: scale3d(0, 1, 1);
+                    }
+                    &.-right {
+                        right: -$thick;
+                        transition: transform 0.1s cubic-bezier(1, 0, .65, 1.01) 0.23s;
+                        transform-origin: top;
+                    }
+                    &.-top {
+                        top: -$thick;
+                        transition: transform 0.08s linear 0.43s;
+                        transform-origin: left;
+                    }
+                    &.-left {
+                        left: -$thick;
+                        transition: transform 0.08s linear 0.51s;
+                        transform-origin: bottom;
+                    }
+                    &.-bottom {
+                        bottom: -$thick;
+                        transition: transform 0.3s cubic-bezier(1, 0, .65, 1.01);
+                        transform-origin: right;
+                    }
+                }
+                a:hover,
+                a:active {
+                    transition: font-size 1s;
+                    font-size: 16px;
+                    transition: background 3s cubic-bezier(.2, 0, 0, 1);
+                    background-color: rgba(112, 255, 234, 0.1);
+                    .text {
+                        font-weight: bold;
+                        transform: translate3d(0, 0, 0);
+                        transition: transform 0.6s cubic-bezier(.2, 0, 0, 1) 0.4s;
+                    }
+                    &:after {
+                        transform: scale3d(0, 1, 1);
+                        right: -$thick;
+                        left: -$thick;
+                        transform-origin: right;
+                        transition: transform 0.2s cubic-bezier(1, 0, .65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, .65, 1.01), left 0s 0.3s;
+                    }
+                    .line {
+                        transform: scale3d(1, 1, 1);
+                        &.-right {
+                            transition: transform 0.1s cubic-bezier(1, 0, .65, 1.01) 0.2s;
+                            transform-origin: bottom;
+                        }
+                        &.-top {
+                            transition: transform 0.08s linear 0.4s;
+                            transform-origin: right;
+                        }
+                        &.-left {
+                            transition: transform 0.08s linear 0.48s;
+                            transform-origin: top;
+                        }
+                        &.-bottom {
+                            transition: transform 0.5s cubic-bezier(0, .53, .29, 1) 0.56s;
+                            transform-origin: left;
+                        }
+                    }
+                }
+            } //LINKANIMATION____________________
+        }
+    }
+    .copyright-wrapper {
+        color: $mid;
+        position: absolute;
+        display: inline-block;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        ul {
+            width: 100%;
+            li {
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                font-size: 10px;
+            }
+        }
+        .fa-heartbeat {
+            color: red;
+            margin: 0px 8px;
+        }
+    }
+}

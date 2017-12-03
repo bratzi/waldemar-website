@@ -1,0 +1,121 @@
+.exp-box {
+    position: relative;
+    height: 50%;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 0;
+    z-index: 0;
+    cursor: pointer;
+    p {
+        padding: 0;
+        margin: 0;
+    }
+    .exp-paragraph {
+        opacity: 0;
+        -webkit-transition: opacity 500ms ease-out;
+        -moz-transition: opacity 500ms ease-out;
+        -o-transition: opacity 500ms ease-out;
+        transition: opacity 500ms ease-out;
+        //position: absolute;
+        //top: 20%;
+        padding: 0px 30px 30px;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+    h3 {
+        padding: 0;
+        margin: 0;
+        letter-spacing: 3px;
+        line-height: 50px;
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+}
+
+#exp1 {
+    background-image: url('../img/exp_bg1.jpg');
+    &:before {
+        background-image: url('../img/exp_bg1.jpg');
+    }
+}
+
+#exp2 {
+    background-image: url('../img/exp_bg2.jpg');
+    &:before {
+        background-image: url('../img/exp_bg2.jpg');
+    }
+}
+
+#exp3 {
+    background-image: url('../img/exp_bg3.jpg');
+    &:before {
+        background-image: url('../img/exp_bg3.jpg');
+    }
+}
+
+#exp4 {
+    background-image: url('../img/exp_bg4.jpg');
+    &:before {
+        background-image: url('../img/exp_bg4.jpg');
+    }
+}
+
+#exp1:hover .exp-paragraph,
+#exp2:hover .exp-paragraph,
+#exp3:hover .exp-paragraph,
+#exp4:hover .exp-paragraph {
+    opacity: 1;
+    -webkit-transition: opacity 500ms ease-out;
+    -moz-transition: opacity 500ms ease-out;
+    -o-transition: opacity 500ms ease-out;
+    transition: opacity 500ms ease-out;
+}
+
+#exp1:before,
+#exp2:before,
+#exp3:before,
+#exp4:before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    z-index: -1;
+}
+
+#exp1:hover:before,
+#exp2:hover:before,
+#exp3:hover:before,
+#exp4:hover:before {
+    transform: scale(1.5);
+}
+
+.img-overlay {
+    height: 100%;
+}
+
+.blue {
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    -o-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+    &:hover {
+        //background-color: rgba(7, 152, 255, 0.7);
+        background-color: rgba(91, 192, 190, 0.7);
+    }
+}

@@ -1,0 +1,77 @@
+.bar-wrapper {
+    li {
+        p{
+            margin-top:12px;
+            color:white;
+        }
+        display: flex;
+        justify-content:space-between;
+        white-space: nowrap;
+        border-bottom: 1px solid $mid;
+        font-size: 12pt;
+        line-height: 1;
+        .bar {
+            min-width: 25px;
+            width:100%;
+            height: 12px;
+            margin: 14px 20px;
+            background-color: lightslategrey;
+            border-radius: 4px;
+            .inner-bar {
+                height: inherit;
+                border-radius: 4px;
+                background: -moz-linear-gradient(top, rgba(111, 255, 233, 1) 0%, rgba(91, 192, 190, 0.75) 54%, rgba(58, 80, 107, 0.75) 55%, rgba(58, 80, 107, 0.71) 62%, rgba(58, 80, 107, 1) 100%);
+                background: -webkit-linear-gradient(top, rgba(111, 255, 233, 1) 0%, rgba(91, 192, 190, 0.75) 54%, rgba(58, 80, 107, 0.75) 55%, rgba(58, 80, 107, 0.71) 62%, rgba(58, 80, 107, 1) 100%);
+                background: linear-gradient(to bottom, rgba(111, 255, 233, 1) 0%, rgba(91, 192, 190, 0.75) 54%, rgba(58, 80, 107, 0.75) 55%, rgba(58, 80, 107, 0.71) 62%, rgba(58, 80, 107, 1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fffe9', endColorstr='#3a506b', GradientType=0);
+            }
+            #bar1 {
+                width: 75%;
+            }
+            #bar2 {
+                width: 50%;
+            }
+            #bar3 {
+                width: 35%;
+            }
+            #bar4 {
+                width: 92%;
+            }
+            #bar5 {
+                width: 85%;
+            }
+            #bar6 {
+                width: 70%;
+            }
+            #bar7 {
+                width: 50%;
+            }
+            #bar8 {
+                width: 40%;
+            }
+            #bar9 {
+                width: 80%;
+            }
+            #bar10 {
+                width: 35%;
+            }
+            #bar11 {
+                width: 70%;
+            }
+            #bar12 {
+                width: 70%;
+            }
+            #bar13 {
+                width: 55%;
+            }
+        }
+        span {
+            font-family: 'theflower', Arial, sans-serif;
+            font-weight: 100;
+            font-size: 14pt;
+            span {
+                font-size: 30pt;
+            }
+        }
+    }
+}

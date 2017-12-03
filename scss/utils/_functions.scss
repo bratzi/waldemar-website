@@ -1,0 +1,20 @@
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.row.center {
+    display: flex;
+    height: 100%;
+}
+
+.Absolute-Center {
+    margin: auto;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 15px 15px 62px -10px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 15px 15px 62px -10px rgba(0, 0, 0, 0.7);
+    box-shadow: 15px 15px 62px -10px rgba(0, 0, 0, 0.7);
+}
