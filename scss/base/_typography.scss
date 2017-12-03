@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
-
 @font-face {
     font-family: 'theflower';
-    src: url('theflowercity-webfont.woff2') format('woff2'),
-         url('theflowercity-webfont.woff') format('woff');
+    src: url('theflowercity-webfont.woff2') format('woff2'), url('theflowercity-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 h2 {
@@ -20,14 +17,10 @@ h2 {
     font-weight: 600;
     color: $dark;
     small {
-        font-size: 36px;
-        color: $darker;
-        font-weight: 100;
-    }
-    span { 
-        font-weight: 100;
         color: white;
+        span {
+            font-weight: 100;
+            color: white;
+        }
     }
-} 
-
-h3 {}
+}
