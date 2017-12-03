@@ -3,14 +3,14 @@ $(document).ready(function () {
     var scene1 = document.getElementById('scene1');
     var parallaxInstance1 = new Parallax(scene1);
     parallaxInstance1.scalar(8, 8);
-    
+
     var scene2 = document.getElementById('scene2');
     var parallaxInstance2 = new Parallax(scene2);
     parallaxInstance2.limit(0);
     parallaxInstance2.invert(5, 5);
-    
+
     setTimeout(function () {
-        $('body').addClass('loaded'); 
+        $('body').addClass('loaded');
         window.sr = ScrollReveal();
         sr.reveal('.title', {
             delay: 1000,
@@ -109,41 +109,7 @@ $(document).ready(function () {
         .tiDelete(1)
         .tiType(' <strong>;-)</strong>');
 
-    $('#section3').mousemove(function (e) {
-        /*        var amountMovedX = (e.pageX * -1 / 40);
-                var amountMovedY = (e.pageY * -1 / 40);
-                $('#particles-js').css('transform', 'translate3d(' + amountMovedX + 'px, ' + amountMovedY + 'px, 0px)');*/
-    });
-
-    $('#section4').mousemove(function (e) {
-
-        /*var amountMovedX = (e.pageX * -1 / 30);
-        var amountMovedY = (e.pageY * -1 / 30);
-        $('#section4').css('background-position', +amountMovedX + 'px ' + amountMovedY + 'px');*/
-
-        /*var card = $(".ideaBox");
-        var y = e.pageY / window.innerHeight;
-        y = y * -80;
-        card.css('transform', 'translate3d(0px, ' + y + 'px, 0px)');*/
-
-        //card.style.webkitTransform = 'translateY(' + y + '%)';
-        //card.style.transform = 'translateY(' + y + '%)';
-
-        /*var boxes = $(".ideaBox");
-        var vertCenter = $(window).height() / 2;
-        var yPos = (e.pageY / 2) - vertCenter;
-        boxes.css('transform', 'translate3d(0px, ' + yPos + 'px, 0px)');*/
-
-    });
-
     particlesJS.load('particles-js', 'assets/particlesjs.json', function () {});
 
 
-
-    /*    var card = $(".ideaBox");
-        $(document).on("mousemove", function (e) {
-            var ax = -($(window).innerWidth() / 2 - e.pageX) / 35;
-            var ay = ($(window).innerHeight() / 2 - e.pageY) / 35;
-            card.attr("style", "transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-webkit-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-moz-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg)");
-        });*/
 });
