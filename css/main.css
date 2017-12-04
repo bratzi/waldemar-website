@@ -1,39 +1,39 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300");
 @import url("https://fonts.googleapis.com/css?family=Alegreya:400,700");
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
-/* line 1, waldemar-website/scss/base/_reset.scss */
+/* line 1, waldemar website/scss/base/_reset.scss */
 body {
   font-family: 'Roboto', sans-serif;
   color: red; }
 
 @media (max-width: 767px) {
-  /* line 5, waldemar-website/scss/base/_reset.scss */
+  /* line 5, waldemar website/scss/base/_reset.scss */
   .fullpage {
     width: calc(100% - 150px); } }
 
 @media (min-width: 768px) {
-  /* line 5, waldemar-website/scss/base/_reset.scss */
+  /* line 5, waldemar website/scss/base/_reset.scss */
   .fullpage {
     width: calc(100% - 150px); } }
 
 @media (min-width: 992px) {
-  /* line 5, waldemar-website/scss/base/_reset.scss */
+  /* line 5, waldemar website/scss/base/_reset.scss */
   .fullpage {
     width: calc(100% - 200px); } }
 
 @media (min-width: 1200px) {
-  /* line 5, waldemar-website/scss/base/_reset.scss */
+  /* line 5, waldemar website/scss/base/_reset.scss */
   .fullpage {
     width: calc(100% - 300px); } }
 
-/* line 11, waldemar-website/scss/base/_reset.scss */
+/* line 11, waldemar website/scss/base/_reset.scss */
 .scene {
   position: absolute !important;
   pointer-events: auto !important;
   height: 100%;
   width: 100%; }
 
-/* line 11, waldemar-website/scss/base/_colors.scss */
+/* line 11, waldemar website/scss/base/_colors.scss */
 body {
   color: white; }
 
@@ -43,7 +43,7 @@ body {
   font-weight: normal;
   font-style: normal; }
 
-/* line 9, waldemar-website/scss/base/_typography.scss */
+/* line 9, waldemar website/scss/base/_typography.scss */
 h2 {
   padding: 0;
   margin: 0;
@@ -54,15 +54,15 @@ h2 {
   text-transform: uppercase;
   font-weight: 600;
   color: #1C2541; }
-  /* line 19, waldemar-website/scss/base/_typography.scss */
+  /* line 19, waldemar website/scss/base/_typography.scss */
   h2 small {
     color: white; }
-    /* line 21, waldemar-website/scss/base/_typography.scss */
+    /* line 21, waldemar website/scss/base/_typography.scss */
     h2 small span {
       font-weight: 100;
       color: white; }
 
-/* line 1, waldemar-website/scss/base/_icons.scss */
+/* line 1, waldemar website/scss/base/_icons.scss */
 .icon {
   display: inline-block;
   width: 80px;
@@ -73,33 +73,33 @@ h2 {
   margin-bottom: 20px; }
 
 @media only screen and (max-width: 500px) {
-  /* line 11, waldemar-website/scss/base/_icons.scss */
+  /* line 11, waldemar website/scss/base/_icons.scss */
   .icon {
     width: 30px;
     height: 30px; } }
 
-/* line 1, waldemar-website/scss/utils/_functions.scss */
+/* line 1, waldemar website/scss/utils/_functions.scss */
 .equal {
   display: flex;
   display: -webkit-flex;
   flex-wrap: wrap; }
 
-/* line 7, waldemar-website/scss/utils/_functions.scss */
+/* line 7, waldemar website/scss/utils/_functions.scss */
 .row.center {
   display: flex;
   height: 100%; }
 
-/* line 12, waldemar-website/scss/utils/_functions.scss */
+/* line 12, waldemar website/scss/utils/_functions.scss */
 .Absolute-Center {
   margin: auto; }
 
-/* line 16, waldemar-website/scss/utils/_functions.scss */
+/* line 16, waldemar website/scss/utils/_functions.scss */
 .box-shadow {
   -webkit-box-shadow: 15px 15px 62px -10px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 15px 15px 62px -10px rgba(0, 0, 0, 0.7);
   box-shadow: 15px 15px 62px -10px rgba(0, 0, 0, 0.7); }
 
-/* line 1, waldemar-website/scss/layout/_footer.scss */
+/* line 1, waldemar website/scss/layout/_footer.scss */
 .footer {
   position: fixed;
   display: block;
@@ -109,18 +109,18 @@ h2 {
   color: #fff;
   bottom: 0px; }
 
-/* line 1, waldemar-website/scss/layout/_header.scss */
+/* line 1, waldemar website/scss/layout/_header.scss */
 .header {
   position: fixed;
   z-index: 1;
   height: 90px;
   color: #fff; }
 
-/* line 7, waldemar-website/scss/layout/_header.scss */
+/* line 7, waldemar website/scss/layout/_header.scss */
 .logo {
   margin: 40px 0px 0px 45px; }
 
-/* line 5, waldemar-website/scss/layout/_section.scss */
+/* line 5, waldemar website/scss/layout/_section.scss */
 .section {
   position: relative;
   z-index: 100;
@@ -132,11 +132,11 @@ h2 {
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   overflow: hidden; }
-  /* line 16, waldemar-website/scss/layout/_section.scss */
+  /* line 16, waldemar website/scss/layout/_section.scss */
   .section .container {
     margin-top: 80px; }
 
-/* line 5, waldemar-website/scss/layout/_sidemenu.scss */
+/* line 5, waldemar website/scss/layout/_sidemenu.scss */
 .sidemenu {
   overflow: hidden;
   height: 100%;
@@ -151,57 +151,57 @@ h2 {
   -moz-box-shadow: inset -16px 0px 41px -10px rgba(0, 0, 0, 0.5);
   box-shadow: inset -16px 0px 41px -10px rgba(0, 0, 0, 0.5); }
   @media (max-width: 767px) {
-    /* line 5, waldemar-website/scss/layout/_sidemenu.scss */
+    /* line 5, waldemar website/scss/layout/_sidemenu.scss */
     .sidemenu {
       width: 150px; }
-      /* line 20, waldemar-website/scss/layout/_sidemenu.scss */
+      /* line 20, waldemar website/scss/layout/_sidemenu.scss */
       .sidemenu .navi-wrapper {
         margin-top: 40px; } }
   @media (min-width: 768px) {
-    /* line 5, waldemar-website/scss/layout/_sidemenu.scss */
+    /* line 5, waldemar website/scss/layout/_sidemenu.scss */
     .sidemenu {
       width: 150px; } }
   @media (min-width: 992px) {
-    /* line 5, waldemar-website/scss/layout/_sidemenu.scss */
+    /* line 5, waldemar website/scss/layout/_sidemenu.scss */
     .sidemenu {
       width: 200px; } }
   @media (min-width: 1200px) {
-    /* line 5, waldemar-website/scss/layout/_sidemenu.scss */
+    /* line 5, waldemar website/scss/layout/_sidemenu.scss */
     .sidemenu {
       width: 300px; }
-      /* line 32, waldemar-website/scss/layout/_sidemenu.scss */
+      /* line 32, waldemar website/scss/layout/_sidemenu.scss */
       .sidemenu .avatar {
         -webkit-box-shadow: 0px 30px 40px 6px rgba(0, 0, 0, 0.3);
         -moz-box-shadow: 0px 30px 40px 6px rgba(0, 0, 0, 0.3);
         box-shadow: 0px 30px 40px 6px rgba(0, 0, 0, 0.3); }
-      /* line 37, waldemar-website/scss/layout/_sidemenu.scss */
+      /* line 37, waldemar website/scss/layout/_sidemenu.scss */
       .sidemenu .navi-wrapper {
         margin-top: 40px; } }
-  /* line 42, waldemar-website/scss/layout/_sidemenu.scss */
+  /* line 42, waldemar website/scss/layout/_sidemenu.scss */
   .sidemenu hr {
     margin: 10px 0px;
     border-top: 1px dashed #3A506B; }
-  /* line 46, waldemar-website/scss/layout/_sidemenu.scss */
+  /* line 46, waldemar website/scss/layout/_sidemenu.scss */
   .sidemenu .avatar-wrapper {
     position: relative;
     overflow: hidden; }
-    /* line 49, waldemar-website/scss/layout/_sidemenu.scss */
+    /* line 49, waldemar website/scss/layout/_sidemenu.scss */
     .sidemenu .avatar-wrapper .title_small {
       color: #5BC0BE; }
-    /* line 52, waldemar-website/scss/layout/_sidemenu.scss */
+    /* line 52, waldemar website/scss/layout/_sidemenu.scss */
     .sidemenu .avatar-wrapper .logo-nav {
       max-width: 150px;
       margin-top: 15px;
       margin-bottom: 15px; }
-    /* line 57, waldemar-website/scss/layout/_sidemenu.scss */
+    /* line 57, waldemar website/scss/layout/_sidemenu.scss */
     .sidemenu .avatar-wrapper .title {
       font-size: 2em;
       line-height: 1em; }
-      /* line 60, waldemar-website/scss/layout/_sidemenu.scss */
+      /* line 60, waldemar website/scss/layout/_sidemenu.scss */
       .sidemenu .avatar-wrapper .title strong {
         font-weight: bolder;
         color: #6FFFE9; }
-  /* line 67, waldemar-website/scss/layout/_sidemenu.scss */
+  /* line 67, waldemar website/scss/layout/_sidemenu.scss */
   .sidemenu .navi-wrapper .NavTitle {
     margin: 0px;
     margin-top: 10px;
@@ -209,13 +209,13 @@ h2 {
     text-transform: uppercase;
     font-size: 12px;
     color: #3A506B; }
-  /* line 76, waldemar-website/scss/layout/_sidemenu.scss */
+  /* line 76, waldemar website/scss/layout/_sidemenu.scss */
   .sidemenu .navi-wrapper ul {
     list-style-type: none;
     display: table;
     width: 100%;
     height: 100%; }
-    /* line 81, waldemar-website/scss/layout/_sidemenu.scss */
+    /* line 81, waldemar website/scss/layout/_sidemenu.scss */
     .sidemenu .navi-wrapper ul li {
       width: 100%;
       line-height: 48px;
@@ -223,7 +223,7 @@ h2 {
       font-size: 12px;
       letter-spacing: 5px;
       display: table-row; }
-      /* line 88, waldemar-website/scss/layout/_sidemenu.scss */
+      /* line 88, waldemar website/scss/layout/_sidemenu.scss */
       .sidemenu .navi-wrapper ul li a {
         transition: background 3s cubic-bezier(0.2, 0, 0, 1);
         transition: font-size 1s;
@@ -233,13 +233,13 @@ h2 {
         color: whitesmoke;
         border: 1px solid transparent;
         position: relative; }
-        /* line 97, waldemar-website/scss/layout/_sidemenu.scss */
+        /* line 97, waldemar website/scss/layout/_sidemenu.scss */
         .sidemenu .navi-wrapper ul li a .text {
           letter-spacing: 6px;
           padding: 0 1em;
           transform: translate3d(0, 0em, 0);
           transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s; }
-        /* line 103, waldemar-website/scss/layout/_sidemenu.scss */
+        /* line 103, waldemar website/scss/layout/_sidemenu.scss */
         .sidemenu .navi-wrapper ul li a:after {
           position: absolute;
           content: '';
@@ -251,56 +251,56 @@ h2 {
           z-index: -1;
           transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
           transform-origin: left; }
-      /* line 116, waldemar-website/scss/layout/_sidemenu.scss */
+      /* line 116, waldemar website/scss/layout/_sidemenu.scss */
       .sidemenu .navi-wrapper ul li .line {
         position: absolute;
         background: #5BC0BE; }
-        /* line 119, waldemar-website/scss/layout/_sidemenu.scss */
+        /* line 119, waldemar website/scss/layout/_sidemenu.scss */
         .sidemenu .navi-wrapper ul li .line.-right, .sidemenu .navi-wrapper ul li .line.-left {
           width: 1px;
           bottom: -1px;
           top: -1px;
           transform: scale3d(1, 0, 1); }
-        /* line 126, waldemar-website/scss/layout/_sidemenu.scss */
+        /* line 126, waldemar website/scss/layout/_sidemenu.scss */
         .sidemenu .navi-wrapper ul li .line.-top, .sidemenu .navi-wrapper ul li .line.-bottom {
           height: 1px;
           left: -1px;
           right: -1px;
           transform: scale3d(0, 1, 1); }
-        /* line 133, waldemar-website/scss/layout/_sidemenu.scss */
+        /* line 133, waldemar website/scss/layout/_sidemenu.scss */
         .sidemenu .navi-wrapper ul li .line.-right {
           right: -1px;
           transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
           transform-origin: top; }
-        /* line 138, waldemar-website/scss/layout/_sidemenu.scss */
+        /* line 138, waldemar website/scss/layout/_sidemenu.scss */
         .sidemenu .navi-wrapper ul li .line.-top {
           top: -1px;
           transition: transform 0.08s linear 0.43s;
           transform-origin: left; }
-        /* line 143, waldemar-website/scss/layout/_sidemenu.scss */
+        /* line 143, waldemar website/scss/layout/_sidemenu.scss */
         .sidemenu .navi-wrapper ul li .line.-left {
           left: -1px;
           transition: transform 0.08s linear 0.51s;
           transform-origin: bottom; }
-        /* line 148, waldemar-website/scss/layout/_sidemenu.scss */
+        /* line 148, waldemar website/scss/layout/_sidemenu.scss */
         .sidemenu .navi-wrapper ul li .line.-bottom {
           bottom: -1px;
           transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
           transform-origin: right; }
-      /* line 154, waldemar-website/scss/layout/_sidemenu.scss */
+      /* line 154, waldemar website/scss/layout/_sidemenu.scss */
       .sidemenu .navi-wrapper ul li a:hover,
       .sidemenu .navi-wrapper ul li a:active {
         transition: font-size 1s;
         font-size: 16px;
         transition: background 3s cubic-bezier(0.2, 0, 0, 1);
         background-color: rgba(112, 255, 234, 0.1); }
-        /* line 160, waldemar-website/scss/layout/_sidemenu.scss */
+        /* line 160, waldemar website/scss/layout/_sidemenu.scss */
         .sidemenu .navi-wrapper ul li a:hover .text,
         .sidemenu .navi-wrapper ul li a:active .text {
           font-weight: bold;
           transform: translate3d(0, 0, 0);
           transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s; }
-        /* line 165, waldemar-website/scss/layout/_sidemenu.scss */
+        /* line 165, waldemar website/scss/layout/_sidemenu.scss */
         .sidemenu .navi-wrapper ul li a:hover:after,
         .sidemenu .navi-wrapper ul li a:active:after {
           transform: scale3d(0, 1, 1);
@@ -308,31 +308,31 @@ h2 {
           left: -1px;
           transform-origin: right;
           transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s; }
-        /* line 172, waldemar-website/scss/layout/_sidemenu.scss */
+        /* line 172, waldemar website/scss/layout/_sidemenu.scss */
         .sidemenu .navi-wrapper ul li a:hover .line,
         .sidemenu .navi-wrapper ul li a:active .line {
           transform: scale3d(1, 1, 1); }
-          /* line 174, waldemar-website/scss/layout/_sidemenu.scss */
+          /* line 174, waldemar website/scss/layout/_sidemenu.scss */
           .sidemenu .navi-wrapper ul li a:hover .line.-right,
           .sidemenu .navi-wrapper ul li a:active .line.-right {
             transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
             transform-origin: bottom; }
-          /* line 178, waldemar-website/scss/layout/_sidemenu.scss */
+          /* line 178, waldemar website/scss/layout/_sidemenu.scss */
           .sidemenu .navi-wrapper ul li a:hover .line.-top,
           .sidemenu .navi-wrapper ul li a:active .line.-top {
             transition: transform 0.08s linear 0.4s;
             transform-origin: right; }
-          /* line 182, waldemar-website/scss/layout/_sidemenu.scss */
+          /* line 182, waldemar website/scss/layout/_sidemenu.scss */
           .sidemenu .navi-wrapper ul li a:hover .line.-left,
           .sidemenu .navi-wrapper ul li a:active .line.-left {
             transition: transform 0.08s linear 0.48s;
             transform-origin: top; }
-          /* line 186, waldemar-website/scss/layout/_sidemenu.scss */
+          /* line 186, waldemar website/scss/layout/_sidemenu.scss */
           .sidemenu .navi-wrapper ul li a:hover .line.-bottom,
           .sidemenu .navi-wrapper ul li a:active .line.-bottom {
             transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
             transform-origin: left; }
-  /* line 195, waldemar-website/scss/layout/_sidemenu.scss */
+  /* line 195, waldemar website/scss/layout/_sidemenu.scss */
   .sidemenu .copyright-wrapper {
     color: #3A506B;
     position: absolute;
@@ -340,21 +340,21 @@ h2 {
     bottom: 0px;
     left: 0;
     right: 0; }
-    /* line 202, waldemar-website/scss/layout/_sidemenu.scss */
+    /* line 202, waldemar website/scss/layout/_sidemenu.scss */
     .sidemenu .copyright-wrapper ul {
       width: 100%; }
-      /* line 204, waldemar-website/scss/layout/_sidemenu.scss */
+      /* line 204, waldemar website/scss/layout/_sidemenu.scss */
       .sidemenu .copyright-wrapper ul li {
         letter-spacing: 2px;
         text-transform: uppercase;
         font-size: 10px; }
-    /* line 210, waldemar-website/scss/layout/_sidemenu.scss */
+    /* line 210, waldemar website/scss/layout/_sidemenu.scss */
     .sidemenu .copyright-wrapper .fa-heartbeat {
       color: red;
       margin: 0px 8px; }
 
 /* Global Button Styles */
-/* line 8, waldemar-website/scss/components/_buttons.scss */
+/* line 8, waldemar website/scss/components/_buttons.scss */
 a.animated-button:link {
   position: relative;
   display: block;
@@ -392,7 +392,7 @@ a.animated-button:link {
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  /* line 45, waldemar-website/scss/components/_buttons.scss */
+  /* line 45, waldemar website/scss/components/_buttons.scss */
   a.animated-button:link:after {
     content: "";
     position: absolute;
@@ -405,15 +405,15 @@ a.animated-button:link {
     -moz-transition: all 0.75s ease 0s;
     -o-transition: all 0.75s ease 0s;
     transition: all 0.75s ease 0s; }
-  /* line 58, waldemar-website/scss/components/_buttons.scss */
+  /* line 58, waldemar website/scss/components/_buttons.scss */
   a.animated-button:link:hover {
     color: #fff;
     text-shadow: none; }
-    /* line 61, waldemar-website/scss/components/_buttons.scss */
+    /* line 61, waldemar website/scss/components/_buttons.scss */
     a.animated-button:link:hover:after {
       height: 450%; }
 
-/* line 66, waldemar-website/scss/components/_buttons.scss */
+/* line 66, waldemar website/scss/components/_buttons.scss */
 a.animated-button:visited {
   position: relative;
   display: block;
@@ -451,7 +451,7 @@ a.animated-button:visited {
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  /* line 103, waldemar-website/scss/components/_buttons.scss */
+  /* line 103, waldemar website/scss/components/_buttons.scss */
   a.animated-button:visited:after {
     content: "";
     position: absolute;
@@ -465,15 +465,15 @@ a.animated-button:visited {
     -o-transition: all 0.75s ease 0s;
     transition: all 0.75s ease 0s;
     color: highlight; }
-  /* line 117, waldemar-website/scss/components/_buttons.scss */
+  /* line 117, waldemar website/scss/components/_buttons.scss */
   a.animated-button:visited:hover {
     color: #fff;
     text-shadow: none; }
-    /* line 120, waldemar-website/scss/components/_buttons.scss */
+    /* line 120, waldemar website/scss/components/_buttons.scss */
     a.animated-button:visited:hover:after {
       height: 450%; }
 
-/* line 127, waldemar-website/scss/components/_buttons.scss */
+/* line 127, waldemar website/scss/components/_buttons.scss */
 a.animated-button.thar-two {
   color: #fff;
   cursor: pointer;
@@ -482,17 +482,17 @@ a.animated-button.thar-two {
   border: 2px solid #fff;
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
   z-index: 1; }
-  /* line 135, waldemar-website/scss/components/_buttons.scss */
+  /* line 135, waldemar website/scss/components/_buttons.scss */
   a.animated-button.thar-two:hover {
     color: #3A506B !important;
     background-color: transparent;
     text-shadow: ntwo; }
-    /* line 139, waldemar-website/scss/components/_buttons.scss */
+    /* line 139, waldemar website/scss/components/_buttons.scss */
     a.animated-button.thar-two:hover:before {
       top: 0%;
       bottom: auto;
       height: 100%; }
-  /* line 145, waldemar-website/scss/components/_buttons.scss */
+  /* line 145, waldemar website/scss/components/_buttons.scss */
   a.animated-button.thar-two:before {
     display: block;
     position: absolute;
@@ -506,7 +506,7 @@ a.animated-button.thar-two {
     background: #fff;
     transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s; }
 
-/* line 1, waldemar-website/scss/components/_preloader.scss */
+/* line 1, waldemar website/scss/components/_preloader.scss */
 .loader-wrapper .loader-section {
   position: fixed;
   top: 0;
@@ -514,15 +514,15 @@ a.animated-button.thar-two {
   height: 100%;
   background: #222222;
   z-index: 1000; }
-  /* line 8, waldemar-website/scss/components/_preloader.scss */
+  /* line 8, waldemar website/scss/components/_preloader.scss */
   .loader-wrapper .loader-section.section-left {
     left: 0; }
-  /* line 11, waldemar-website/scss/components/_preloader.scss */
+  /* line 11, waldemar website/scss/components/_preloader.scss */
   .loader-wrapper .loader-section.section-right {
     right: 0; }
 
 /*ANIMATION*/
-/* line 18, waldemar-website/scss/components/_preloader.scss */
+/* line 18, waldemar website/scss/components/_preloader.scss */
 .loader {
   z-index: 1001;
   /* anything higher than z-index: 1000 of .loader-section */
@@ -535,7 +535,7 @@ a.animated-button.thar-two {
   height: 5.4em;
   background-color: #222222; }
 
-/* line 31, waldemar-website/scss/components/_preloader.scss */
+/* line 31, waldemar website/scss/components/_preloader.scss */
 .hill {
   position: absolute;
   width: 7.1em;
@@ -545,7 +545,7 @@ a.animated-button.thar-two {
   background-color: transparent;
   border-left: .25em solid whitesmoke;
   transform: rotate(45deg); }
-  /* line 40, waldemar-website/scss/components/_preloader.scss */
+  /* line 40, waldemar website/scss/components/_preloader.scss */
   .hill:after {
     content: '';
     position: absolute;
@@ -554,7 +554,7 @@ a.animated-button.thar-two {
     left: 0;
     background-color: #222222; }
 
-/* line 50, waldemar-website/scss/components/_preloader.scss */
+/* line 50, waldemar website/scss/components/_preloader.scss */
 .box {
   position: absolute;
   left: 0;
@@ -592,7 +592,7 @@ a.animated-button.thar-two {
     transform: translate(0, -1em) rotate(-225deg); } }
 
 /* Loaded */
-/* line 114, waldemar-website/scss/components/_preloader.scss */
+/* line 114, waldemar website/scss/components/_preloader.scss */
 .loaded .loader-wrapper .loader-section.section-left {
   -webkit-transform: translateX(-100%);
   /* Chrome, Opera 15+, Safari 3.1+ */
@@ -601,7 +601,7 @@ a.animated-button.thar-two {
   transform: translateX(-100%);
   /* Firefox 16+, IE 10+, Opera */ }
 
-/* line 122, waldemar-website/scss/components/_preloader.scss */
+/* line 122, waldemar website/scss/components/_preloader.scss */
 .loaded .loader-wrapper .loader-section.section-right {
   -webkit-transform: translateX(100%);
   /* Chrome, Opera 15+, Safari 3.1+ */
@@ -610,26 +610,26 @@ a.animated-button.thar-two {
   transform: translateX(100%);
   /* Firefox 16+, IE 10+, Opera */ }
 
-/* line 131, waldemar-website/scss/components/_preloader.scss */
+/* line 131, waldemar website/scss/components/_preloader.scss */
 .loaded .loader {
   opacity: 0; }
 
-/* line 134, waldemar-website/scss/components/_preloader.scss */
+/* line 134, waldemar website/scss/components/_preloader.scss */
 .loaded .loader-wrapper {
   visibility: hidden; }
 
-/* line 137, waldemar-website/scss/components/_preloader.scss */
+/* line 137, waldemar website/scss/components/_preloader.scss */
 .loaded .loader {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
 
-/* line 143, waldemar-website/scss/components/_preloader.scss */
+/* line 143, waldemar website/scss/components/_preloader.scss */
 .loaded .loader-wrapper .loader-section.section-right, .loaded .loader-wrapper .loader-section.section-left {
   -webkit-transition: all 0.3s 0.3s ease-out;
   transition: all 0.3s 0.3s ease-out; }
 
-/* line 150, waldemar-website/scss/components/_preloader.scss */
+/* line 150, waldemar website/scss/components/_preloader.scss */
 loaded .loader-wrapper {
   -webkit-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
@@ -637,13 +637,13 @@ loaded .loader-wrapper {
   -webkit-transition: all 0.3s 0.6s ease-out;
   transition: all 0.3s 0.6s ease-out; }
 
-/* line 1, waldemar-website/scss/components/_scrollanimation.scss */
+/* line 1, waldemar website/scss/components/_scrollanimation.scss */
 .scrollanimation {
   margin: 55px 0 50px 0; }
-  /* line 3, waldemar-website/scss/components/_scrollanimation.scss */
+  /* line 3, waldemar website/scss/components/_scrollanimation.scss */
   .scrollanimation a {
     color: #6FFFE9; }
-    /* line 5, waldemar-website/scss/components/_scrollanimation.scss */
+    /* line 5, waldemar website/scss/components/_scrollanimation.scss */
     .scrollanimation a span {
       position: absolute;
       top: 0;
@@ -654,7 +654,7 @@ loaded .loader-wrapper {
       border: 2px solid #6FFFE9;
       border-radius: 50px;
       box-sizing: border-box; }
-      /* line 15, waldemar-website/scss/components/_scrollanimation.scss */
+      /* line 15, waldemar website/scss/components/_scrollanimation.scss */
       .scrollanimation a span::before {
         position: absolute;
         top: 10px;
@@ -693,7 +693,7 @@ loaded .loader-wrapper {
   100% {
     opacity: 0; } }
 
-/* line 1, waldemar-website/scss/components/_videobackground.scss */
+/* line 1, waldemar website/scss/components/_videobackground.scss */
 .video-overlay {
   position: absolute;
   top: 0;
@@ -701,11 +701,11 @@ loaded .loader-wrapper {
   width: 100%;
   height: 100%;
   z-index: 4; }
-  /* line 8, waldemar-website/scss/components/_videobackground.scss */
+  /* line 8, waldemar website/scss/components/_videobackground.scss */
   .overlay-off .video-overlay {
     z-index: 1000; }
 
-/* line 10, waldemar-website/scss/components/_videobackground.scss */
+/* line 10, waldemar website/scss/components/_videobackground.scss */
 .layer {
   position: absolute;
   z-index: 100;
@@ -718,7 +718,7 @@ loaded .loader-wrapper {
   transform: translate3d(0, 0, 0);
   overflow: hidden; }
 
-/* line 23, waldemar-website/scss/components/_videobackground.scss */
+/* line 23, waldemar website/scss/components/_videobackground.scss */
 #myVideo {
   position: absolute;
   right: 0;
@@ -734,29 +734,29 @@ loaded .loader-wrapper {
   object-fit: cover;
   z-index: 3; }
 
-/* line 40, waldemar-website/scss/components/_videobackground.scss */
+/* line 40, waldemar website/scss/components/_videobackground.scss */
 video::-webkit-media-controls {
   display: none !important; }
 
-/* line 1, waldemar-website/scss/components/_avatar.scss */
+/* line 1, waldemar website/scss/components/_avatar.scss */
 .avatar {
   border: .4em dashed #6FFFE9;
   width: 150px;
   padding: 5px; }
 
-/* line 1, waldemar-website/scss/components/_typeit.scss */
+/* line 1, waldemar website/scss/components/_typeit.scss */
 .type-it-wrapper {
   align-self: center;
   height: 20px; }
 
-/* line 6, waldemar-website/scss/components/_typeit.scss */
+/* line 6, waldemar website/scss/components/_typeit.scss */
 .type-it {
   font-weight: 800;
   color: #6FFFE9;
   font-size: 4em;
   letter-spacing: -2px; }
 
-/* line 1, waldemar-website/scss/components/_expbox.scss */
+/* line 1, waldemar website/scss/components/_expbox.scss */
 .exp-box {
   position: relative;
   height: 50%;
@@ -769,11 +769,11 @@ video::-webkit-media-controls {
   padding: 0;
   z-index: 0;
   cursor: pointer; }
-  /* line 13, waldemar-website/scss/components/_expbox.scss */
+  /* line 13, waldemar website/scss/components/_expbox.scss */
   .exp-box p {
     padding: 0;
     margin: 0; }
-  /* line 17, waldemar-website/scss/components/_expbox.scss */
+  /* line 17, waldemar website/scss/components/_expbox.scss */
   .exp-box .exp-paragraph {
     opacity: 0;
     -webkit-transition: opacity 500ms ease-out;
@@ -787,7 +787,7 @@ video::-webkit-media-controls {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%; }
-  /* line 33, waldemar-website/scss/components/_expbox.scss */
+  /* line 33, waldemar website/scss/components/_expbox.scss */
   .exp-box h3 {
     padding: 0;
     margin: 0;
@@ -796,35 +796,35 @@ video::-webkit-media-controls {
     font-size: 3em;
     text-transform: uppercase; }
 
-/* line 43, waldemar-website/scss/components/_expbox.scss */
+/* line 43, waldemar website/scss/components/_expbox.scss */
 #exp1 {
   background-image: url("../img/exp_bg1.jpg"); }
-  /* line 45, waldemar-website/scss/components/_expbox.scss */
+  /* line 45, waldemar website/scss/components/_expbox.scss */
   #exp1:before {
     background-image: url("../img/exp_bg1.jpg"); }
 
-/* line 50, waldemar-website/scss/components/_expbox.scss */
+/* line 50, waldemar website/scss/components/_expbox.scss */
 #exp2 {
   background-image: url("../img/exp_bg2.jpg"); }
-  /* line 52, waldemar-website/scss/components/_expbox.scss */
+  /* line 52, waldemar website/scss/components/_expbox.scss */
   #exp2:before {
     background-image: url("../img/exp_bg2.jpg"); }
 
-/* line 57, waldemar-website/scss/components/_expbox.scss */
+/* line 57, waldemar website/scss/components/_expbox.scss */
 #exp3 {
   background-image: url("../img/exp_bg3.jpg"); }
-  /* line 59, waldemar-website/scss/components/_expbox.scss */
+  /* line 59, waldemar website/scss/components/_expbox.scss */
   #exp3:before {
     background-image: url("../img/exp_bg3.jpg"); }
 
-/* line 64, waldemar-website/scss/components/_expbox.scss */
+/* line 64, waldemar website/scss/components/_expbox.scss */
 #exp4 {
   background-image: url("../img/exp_bg4.jpg"); }
-  /* line 66, waldemar-website/scss/components/_expbox.scss */
+  /* line 66, waldemar website/scss/components/_expbox.scss */
   #exp4:before {
     background-image: url("../img/exp_bg4.jpg"); }
 
-/* line 71, waldemar-website/scss/components/_expbox.scss */
+/* line 71, waldemar website/scss/components/_expbox.scss */
 #exp1:hover .exp-paragraph,
 #exp2:hover .exp-paragraph,
 #exp3:hover .exp-paragraph,
@@ -835,7 +835,7 @@ video::-webkit-media-controls {
   -o-transition: opacity 500ms ease-out;
   transition: opacity 500ms ease-out; }
 
-/* line 82, waldemar-website/scss/components/_expbox.scss */
+/* line 82, waldemar website/scss/components/_expbox.scss */
 #exp1:before,
 #exp2:before,
 #exp3:before,
@@ -854,24 +854,24 @@ video::-webkit-media-controls {
   transition: all 300ms ease-out;
   z-index: -1; }
 
-/* line 101, waldemar-website/scss/components/_expbox.scss */
+/* line 101, waldemar website/scss/components/_expbox.scss */
 #exp1:hover:before,
 #exp2:hover:before,
 #exp3:hover:before,
 #exp4:hover:before {
   transform: scale(1.5); }
 
-/* line 108, waldemar-website/scss/components/_expbox.scss */
+/* line 108, waldemar website/scss/components/_expbox.scss */
 .img-overlay {
   height: 100%; }
 
-/* line 112, waldemar-website/scss/components/_expbox.scss */
+/* line 112, waldemar website/scss/components/_expbox.scss */
 .blue {
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
   -o-transition: background-color 300ms ease-out;
   transition: background-color 300ms ease-out; }
-  /* line 117, waldemar-website/scss/components/_expbox.scss */
+  /* line 117, waldemar website/scss/components/_expbox.scss */
   .blue:hover {
     background-color: rgba(91, 192, 190, 0.7); }
 
@@ -891,7 +891,7 @@ video::-webkit-media-controls {
   100% {
     transform: rotate(10deg); } }
 
-/* line 13, waldemar-website/scss/components/_swing.scss */
+/* line 13, waldemar website/scss/components/_swing.scss */
 .swingimage {
   position: absolute;
   top: 48%;
@@ -904,7 +904,7 @@ video::-webkit-media-controls {
   animation: swinging 3.5s ease-in-out forwards infinite;
   z-index: 500; }
 
-/* line 25, waldemar-website/scss/components/_swing.scss */
+/* line 25, waldemar website/scss/components/_swing.scss */
 .swingimageshift {
   position: relative;
   left: 50px;
@@ -914,7 +914,7 @@ video::-webkit-media-controls {
   -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
   animation: swinging 3.5s ease-in-out forwards infinite; }
 
-/* line 1, waldemar-website/scss/components/cycle.scss */
+/* line 1, waldemar website/scss/components/cycle.scss */
 .cycle {
   position: relative;
   cursor: pointer;
@@ -928,23 +928,23 @@ video::-webkit-media-controls {
   transition: border-color .2s ease-out;
   transition: border-width .2s ease-out;
   animation: pulse 5s infinite; }
-  /* line 14, waldemar-website/scss/components/cycle.scss */
+  /* line 14, waldemar website/scss/components/cycle.scss */
   .cycle p {
     font-weight: 600 !important;
     color: white !important;
     vertical-align: middle;
     display: table-cell; }
-  /* line 21, waldemar-website/scss/components/cycle.scss */
+  /* line 21, waldemar website/scss/components/cycle.scss */
   .cycle:hover {
     border: 10px solid #6FFFE9;
     border-color: #3A506B; }
 
-/* line 28, waldemar-website/scss/components/cycle.scss */
+/* line 28, waldemar website/scss/components/cycle.scss */
 .col-xs-4 .cycle {
   width: 170px;
   height: 170px; }
 
-/* line 35, waldemar-website/scss/components/cycle.scss */
+/* line 35, waldemar website/scss/components/cycle.scss */
 .col-md-4 .cycle {
   width: 200px;
   height: 200px; }
@@ -968,7 +968,7 @@ video::-webkit-media-controls {
     -moz-box-shadow: 0 0 0 0 rgba(91, 192, 190, 0);
     box-shadow: 0 0 0 0 rgba(91, 192, 190, 0); } }
 
-/* line 2, waldemar-website/scss/components/_bar.scss */
+/* line 2, waldemar website/scss/components/_bar.scss */
 .bar-wrapper li {
   display: flex;
   justify-content: space-between;
@@ -976,11 +976,11 @@ video::-webkit-media-controls {
   border-bottom: 1px solid #3A506B;
   font-size: 12pt;
   line-height: 1; }
-  /* line 3, waldemar-website/scss/components/_bar.scss */
+  /* line 3, waldemar website/scss/components/_bar.scss */
   .bar-wrapper li p {
     margin-top: 12px;
     color: white; }
-  /* line 13, waldemar-website/scss/components/_bar.scss */
+  /* line 13, waldemar website/scss/components/_bar.scss */
   .bar-wrapper li .bar {
     min-width: 25px;
     width: 100%;
@@ -988,7 +988,7 @@ video::-webkit-media-controls {
     margin: 14px 20px;
     background-color: lightslategrey;
     border-radius: 4px; }
-    /* line 20, waldemar-website/scss/components/_bar.scss */
+    /* line 20, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar .inner-bar {
       height: inherit;
       border-radius: 4px;
@@ -996,55 +996,55 @@ video::-webkit-media-controls {
       background: -webkit-linear-gradient(top, #6fffe9 0%, rgba(91, 192, 190, 0.75) 54%, rgba(58, 80, 107, 0.75) 55%, rgba(58, 80, 107, 0.71) 62%, #3a506b 100%);
       background: linear-gradient(to bottom, #6fffe9 0%, rgba(91, 192, 190, 0.75) 54%, rgba(58, 80, 107, 0.75) 55%, rgba(58, 80, 107, 0.71) 62%, #3a506b 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fffe9', endColorstr='#3a506b', GradientType=0); }
-    /* line 28, waldemar-website/scss/components/_bar.scss */
+    /* line 28, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar1 {
       width: 75%; }
-    /* line 31, waldemar-website/scss/components/_bar.scss */
+    /* line 31, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar2 {
       width: 50%; }
-    /* line 34, waldemar-website/scss/components/_bar.scss */
+    /* line 34, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar3 {
       width: 35%; }
-    /* line 37, waldemar-website/scss/components/_bar.scss */
+    /* line 37, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar4 {
       width: 92%; }
-    /* line 40, waldemar-website/scss/components/_bar.scss */
+    /* line 40, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar5 {
       width: 85%; }
-    /* line 43, waldemar-website/scss/components/_bar.scss */
+    /* line 43, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar6 {
       width: 70%; }
-    /* line 46, waldemar-website/scss/components/_bar.scss */
+    /* line 46, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar7 {
       width: 50%; }
-    /* line 49, waldemar-website/scss/components/_bar.scss */
+    /* line 49, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar8 {
       width: 40%; }
-    /* line 52, waldemar-website/scss/components/_bar.scss */
+    /* line 52, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar9 {
       width: 80%; }
-    /* line 55, waldemar-website/scss/components/_bar.scss */
+    /* line 55, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar10 {
       width: 35%; }
-    /* line 58, waldemar-website/scss/components/_bar.scss */
+    /* line 58, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar11 {
       width: 70%; }
-    /* line 61, waldemar-website/scss/components/_bar.scss */
+    /* line 61, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar12 {
       width: 70%; }
-    /* line 64, waldemar-website/scss/components/_bar.scss */
+    /* line 64, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li .bar #bar13 {
       width: 55%; }
-  /* line 68, waldemar-website/scss/components/_bar.scss */
+  /* line 68, waldemar website/scss/components/_bar.scss */
   .bar-wrapper li span {
     font-family: 'theflower', Arial, sans-serif;
     font-weight: 100;
     font-size: 14pt; }
-    /* line 72, waldemar-website/scss/components/_bar.scss */
+    /* line 72, waldemar website/scss/components/_bar.scss */
     .bar-wrapper li span span {
       font-size: 30pt; }
 
-/* line 1, waldemar-website/scss/components/_ideabox.scss */
+/* line 1, waldemar website/scss/components/_ideabox.scss */
 .ideaBox {
   cursor: pointer;
   border: 2px solid;
@@ -1053,7 +1053,7 @@ video::-webkit-media-controls {
   margin-bottom: 20px;
   transform: translateZ(0);
   transform-style: preserve-3d; }
-  /* line 7, waldemar-website/scss/components/_ideabox.scss */
+  /* line 7, waldemar website/scss/components/_ideabox.scss */
   .ideaBox .wrapper {
     transform-style: preserve-3d;
     position: relative;
@@ -1062,32 +1062,32 @@ video::-webkit-media-controls {
     border-top-right-radius: inherit;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.2); }
-    /* line 15, waldemar-website/scss/components/_ideabox.scss */
+    /* line 15, waldemar website/scss/components/_ideabox.scss */
     .ideaBox .wrapper .fa {
       color: #3A506B;
       transition: all 1000ms ease-in-out;
       transform: scale(1); }
-    /* line 20, waldemar-website/scss/components/_ideabox.scss */
+    /* line 20, waldemar website/scss/components/_ideabox.scss */
     .ideaBox .wrapper p {
       color: #0B132B; }
-  /* line 24, waldemar-website/scss/components/_ideabox.scss */
+  /* line 24, waldemar website/scss/components/_ideabox.scss */
   .ideaBox h4 {
     transform: translateZ(30px);
     color: #3A506B;
     font-size: 25px;
     text-transform: uppercase; }
-    /* line 29, waldemar-website/scss/components/_ideabox.scss */
+    /* line 29, waldemar website/scss/components/_ideabox.scss */
     .ideaBox h4 span {
       font-weight: 600; }
-  /* line 33, waldemar-website/scss/components/_ideabox.scss */
+  /* line 33, waldemar website/scss/components/_ideabox.scss */
   .ideaBox p {
     transform: translateZ(20px);
     font-size: 15px;
     margin: 10px 15px 30px 15px; }
-  /* line 38, waldemar-website/scss/components/_ideabox.scss */
+  /* line 38, waldemar website/scss/components/_ideabox.scss */
   .ideaBox img {
     transform: translateZ(5px); }
-  /* line 41, waldemar-website/scss/components/_ideabox.scss */
+  /* line 41, waldemar website/scss/components/_ideabox.scss */
   .ideaBox .cycle {
     transform: translateZ(80px);
     opacity: 0;
@@ -1105,20 +1105,20 @@ video::-webkit-media-controls {
     border-radius: 50%;
     width: 40px;
     height: 40px; }
-    /* line 58, waldemar-website/scss/components/_ideabox.scss */
+    /* line 58, waldemar website/scss/components/_ideabox.scss */
     .ideaBox .cycle span {
       font-size: 18pt;
       font-weight: 600;
       color: #3A506B; }
 
-/* line 2, waldemar-website/scss/sections/section0.scss */
+/* line 2, waldemar website/scss/sections/section0.scss */
 #section0 {
   display: flex;
   padding: 20px; }
-  /* line 8, waldemar-website/scss/sections/section0.scss */
+  /* line 8, waldemar website/scss/sections/section0.scss */
   #section0 .col-md-offset-1 .col-md-7 {
     padding-top: 10px; }
-  /* line 14, waldemar-website/scss/sections/section0.scss */
+  /* line 14, waldemar website/scss/sections/section0.scss */
   #section0 .video-overlay {
     opacity: .6;
     background: #43cea2;
@@ -1128,32 +1128,32 @@ video::-webkit-media-controls {
     background: linear-gradient(to right, #185a9d, #43cea2);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
-/* line 3, waldemar-website/scss/sections/section1.scss */
+/* line 3, waldemar website/scss/sections/section1.scss */
 #section1 .lead {
   color: #3A506B; }
 
-/* line 6, waldemar-website/scss/sections/section1.scss */
+/* line 6, waldemar website/scss/sections/section1.scss */
 #section1 .container-fluid {
   height: 100%;
   padding: 0px; }
-  /* line 9, waldemar-website/scss/sections/section1.scss */
+  /* line 9, waldemar website/scss/sections/section1.scss */
   #section1 .container-fluid .row-fluid {
     height: inherit; }
 
-/* line 4, waldemar-website/scss/sections/section2.scss */
+/* line 4, waldemar website/scss/sections/section2.scss */
 #section2 .icon {
   margin-bottom: 50px;
   width: 100px;
   height: 100px;
   color: #0798ff; }
 
-/* line 11, waldemar-website/scss/sections/section2.scss */
+/* line 11, waldemar website/scss/sections/section2.scss */
 #section2 p {
   font-size: 21px;
   font-weight: 100;
   margin-bottom: 80px; }
 
-/* line 16, waldemar-website/scss/sections/section2.scss */
+/* line 16, waldemar website/scss/sections/section2.scss */
 #section2 .video-overlay {
   opacity: .6;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#22e1ff+0,625eb1+100 */
@@ -1168,14 +1168,14 @@ video::-webkit-media-controls {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22e1ff', endColorstr='#625eb1', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */ }
 
-/* line 31, waldemar-website/scss/sections/section2.scss */
+/* line 31, waldemar website/scss/sections/section2.scss */
 #section2 .ideaBox {
   cursor: pointer;
   border: 2px solid;
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.2);
   margin-bottom: 20px; }
-  /* line 38, waldemar-website/scss/sections/section2.scss */
+  /* line 38, waldemar website/scss/sections/section2.scss */
   #section2 .ideaBox .wrapper {
     position: relative;
     z-index: 0;
@@ -1183,27 +1183,27 @@ video::-webkit-media-controls {
     border-top-right-radius: inherit;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.2); }
-    /* line 45, waldemar-website/scss/sections/section2.scss */
+    /* line 45, waldemar website/scss/sections/section2.scss */
     #section2 .ideaBox .wrapper .fa {
       color: #3A506B;
       transition: all 1000ms ease-in-out;
       transform: scale(1); }
-    /* line 50, waldemar-website/scss/sections/section2.scss */
+    /* line 50, waldemar website/scss/sections/section2.scss */
     #section2 .ideaBox .wrapper p {
       color: #0B132B; }
-  /* line 54, waldemar-website/scss/sections/section2.scss */
+  /* line 54, waldemar website/scss/sections/section2.scss */
   #section2 .ideaBox h4 {
     color: #3A506B;
     font-size: 25px;
     text-transform: uppercase; }
-    /* line 58, waldemar-website/scss/sections/section2.scss */
+    /* line 58, waldemar website/scss/sections/section2.scss */
     #section2 .ideaBox h4 span {
       font-weight: 600; }
-  /* line 62, waldemar-website/scss/sections/section2.scss */
+  /* line 62, waldemar website/scss/sections/section2.scss */
   #section2 .ideaBox p {
     font-size: 15px;
     margin: 10px 15px 30px 15px; }
-  /* line 68, waldemar-website/scss/sections/section2.scss */
+  /* line 68, waldemar website/scss/sections/section2.scss */
   #section2 .ideaBox .cycle {
     opacity: 0;
     -webkit-transition: opacity .5s ease-in-out;
@@ -1220,13 +1220,13 @@ video::-webkit-media-controls {
     border-radius: 50%;
     width: 40px;
     height: 40px; }
-    /* line 84, waldemar-website/scss/sections/section2.scss */
+    /* line 84, waldemar website/scss/sections/section2.scss */
     #section2 .ideaBox .cycle span {
       font-size: 18pt;
       font-weight: 600;
       color: #3A506B; }
 
-/* line 91, waldemar-website/scss/sections/section2.scss */
+/* line 91, waldemar website/scss/sections/section2.scss */
 #section2 .listwrapper {
   padding: 3px;
   background-color: #3A506B;
@@ -1234,16 +1234,16 @@ video::-webkit-media-controls {
   font-size: 1.1em;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px; }
-  /* line 98, waldemar-website/scss/sections/section2.scss */
+  /* line 98, waldemar website/scss/sections/section2.scss */
   #section2 .listwrapper i {
     line-height: inherit; }
 
-/* line 102, waldemar-website/scss/sections/section2.scss */
+/* line 102, waldemar website/scss/sections/section2.scss */
 #section2 .hover-shadow {
   position: relative;
   transition-duration: 1.5s;
   transition-property: transform; }
-  /* line 106, waldemar-website/scss/sections/section2.scss */
+  /* line 106, waldemar website/scss/sections/section2.scss */
   #section2 .hover-shadow:before {
     pointer-events: none;
     position: absolute;
@@ -1258,7 +1258,7 @@ video::-webkit-media-controls {
     /* W3C */
     transition-duration: 1s;
     transition-property: transform opacity; }
-  /* line 121, waldemar-website/scss/sections/section2.scss */
+  /* line 121, waldemar website/scss/sections/section2.scss */
   #section2 .hover-shadow:hover {
     transform: translateY(-50px);
     animation-name: hover;
@@ -1267,15 +1267,15 @@ video::-webkit-media-controls {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate; }
-    /* line 122, waldemar-website/scss/sections/section2.scss */
+    /* line 122, waldemar website/scss/sections/section2.scss */
     #section2 .hover-shadow:hover .fa {
       transition: all 1000ms ease-in-out;
       transform: scale(1.5); }
-    /* line 126, waldemar-website/scss/sections/section2.scss */
+    /* line 126, waldemar website/scss/sections/section2.scss */
     #section2 .hover-shadow:hover .cycle {
       filter: alpha(opacity=100);
       opacity: 1; }
-    /* line 137, waldemar-website/scss/sections/section2.scss */
+    /* line 137, waldemar website/scss/sections/section2.scss */
     #section2 .hover-shadow:hover:before {
       opacity: .4;
       transform: translateY(50px);
@@ -1285,39 +1285,39 @@ video::-webkit-media-controls {
       animation-timing-function: linear;
       animation-iteration-count: infinite;
       animation-direction: alternate; }
-      /* line 138, waldemar-website/scss/sections/section2.scss */
+      /* line 138, waldemar website/scss/sections/section2.scss */
       #section2 .hover-shadow:hover:before .fa {
         transition: all 1000ms ease-in-out;
         transform: scale(1.5); }
 
-/* line 2, waldemar-website/scss/sections/section3.scss */
+/* line 2, waldemar website/scss/sections/section3.scss */
 #section3 {
   color: #5BC0BE;
   font-size: 16pt;
   transition: 250ms all linear;
   box-shadow: inset 0px 0px 1500px rgba(0, 0, 0, 0.9); }
-  /* line 7, waldemar-website/scss/sections/section3.scss */
+  /* line 7, waldemar website/scss/sections/section3.scss */
   #section3 li {
     font-weight: 600; }
-  /* line 10, waldemar-website/scss/sections/section3.scss */
+  /* line 10, waldemar website/scss/sections/section3.scss */
   #section3 h2 {
     font-size: 56pt;
     color: #6FFFE9;
     font-weight: 100; }
-    /* line 14, waldemar-website/scss/sections/section3.scss */
+    /* line 14, waldemar website/scss/sections/section3.scss */
     #section3 h2 span {
       color: #fff;
       font-size: 32pt;
       text-transform: none;
       letter-spacing: 2pt; }
-  /* line 23, waldemar-website/scss/sections/section3.scss */
+  /* line 23, waldemar website/scss/sections/section3.scss */
   #section3 .col-xs-12 p {
     margin-top: 25px;
     color: #3A506B;
     font-size: 24pt;
     text-transform: none;
     letter-spacing: 2pt; }
-  /* line 31, waldemar-website/scss/sections/section3.scss */
+  /* line 31, waldemar website/scss/sections/section3.scss */
   #section3 badge {
     cursor: pointer;
     padding: 2px 10px;
@@ -1328,14 +1328,14 @@ video::-webkit-media-controls {
     -webkit-transition: background-color 300ms linear;
     -ms-transition: background-color 300ms linear;
     transition: background-color 300ms linear; }
-    /* line 41, waldemar-website/scss/sections/section3.scss */
+    /* line 41, waldemar website/scss/sections/section3.scss */
     #section3 badge:hover {
       color: white;
       background-color: #3A506B;
       -webkit-transition: background-color 300ms linear;
       -ms-transition: background-color 300ms linear;
       transition: background-color 300ms linear; }
-  /* line 49, waldemar-website/scss/sections/section3.scss */
+  /* line 49, waldemar website/scss/sections/section3.scss */
   #section3 #particles-js {
     -webkit-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
     transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
@@ -1344,7 +1344,7 @@ video::-webkit-media-controls {
     width: 115%;
     height: 115%; }
 
-/* line 3, waldemar-website/scss/sections/section4.scss */
+/* line 3, waldemar website/scss/sections/section4.scss */
 #section4 {
   background: linear-gradient(90deg, #58A8FB, #465683);
   overflow: hidden;
@@ -1352,79 +1352,79 @@ video::-webkit-media-controls {
   height: 100vh;
   /* Shadow effect */
   /* All individual isometric grid layouts (static and scrollable) */ }
-  /* line 8, waldemar-website/scss/sections/section4.scss */
+  /* line 8, waldemar website/scss/sections/section4.scss */
   #section4 .fa-heartbeat {
     color: red; }
-  /* line 11, waldemar-website/scss/sections/section4.scss */
+  /* line 11, waldemar website/scss/sections/section4.scss */
   #section4 *,
   #section4 *::after,
   #section4 *::before {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
-  /* line 17, waldemar-website/scss/sections/section4.scss */
+  /* line 17, waldemar website/scss/sections/section4.scss */
   #section4 .clearfix::before,
   #section4 .clearfix::after {
     display: table;
     content: ''; }
-  /* line 22, waldemar-website/scss/sections/section4.scss */
+  /* line 22, waldemar website/scss/sections/section4.scss */
   #section4 .clearfix::after {
     clear: both; }
-  /* line 25, waldemar-website/scss/sections/section4.scss */
+  /* line 25, waldemar website/scss/sections/section4.scss */
   #section4 .titles {
     padding: 5vmax 0 0 5vmax;
     position: absolute;
     z-index: 2000; }
-    /* line 30, waldemar-website/scss/sections/section4.scss */
+    /* line 30, waldemar website/scss/sections/section4.scss */
     #section4 .titles h2 small {
       font-size: 26px;
       color: white; }
-    /* line 35, waldemar-website/scss/sections/section4.scss */
+    /* line 35, waldemar website/scss/sections/section4.scss */
     #section4 .titles .hero {
       color: #fff;
       font-size: 24pt;
       letter-spacing: 2pt;
       text-transform: uppercase; }
-    /* line 41, waldemar-website/scss/sections/section4.scss */
+    /* line 41, waldemar website/scss/sections/section4.scss */
     #section4 .titles .quote {
       margin: 30px 0px;
       letter-spacing: 1px;
       font-weight: 100;
       font-size: 24px;
       font-family: 'Alegreya', serif; }
-      /* line 47, waldemar-website/scss/sections/section4.scss */
+      /* line 47, waldemar website/scss/sections/section4.scss */
       #section4 .titles .quote span {
         text-transform: uppercase;
         font-weight: 600; }
-  /* line 55, waldemar-website/scss/sections/section4.scss */
+  /* line 55, waldemar website/scss/sections/section4.scss */
   #section4 .isolayer {
     position: absolute;
     top: 0;
     left: 0;
     -webkit-transform-origin: 50% 100%;
     transform-origin: 50% 100%; }
-  /* line 62, waldemar-website/scss/sections/section4.scss */
+  /* line 62, waldemar website/scss/sections/section4.scss */
   #section4 .grid {
     position: relative;
     margin: 0 auto;
     padding: 0;
     list-style: none; }
-  /* line 68, waldemar-website/scss/sections/section4.scss */
+  /* line 68, waldemar website/scss/sections/section4.scss */
   #section4 .grid__item {
     width: 300px; }
-  /* line 71, waldemar-website/scss/sections/section4.scss */
+  /* line 71, waldemar website/scss/sections/section4.scss */
   #section4 .js .grid__item {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
-  /* line 75, waldemar-website/scss/sections/section4.scss */
+  /* line 75, waldemar website/scss/sections/section4.scss */
   #section4 .grid__link {
     position: relative;
     z-index: 1;
     display: block; }
-  /* line 80, waldemar-website/scss/sections/section4.scss */
+  /* line 80, waldemar website/scss/sections/section4.scss */
   #section4 .grid__img {
     display: block;
     max-width: 100%; }
-  /* line 84, waldemar-website/scss/sections/section4.scss */
+  /* line 84, waldemar website/scss/sections/section4.scss */
   #section4 .grid__title {
     font-size: 0.65em;
     font-weight: 600;
@@ -1441,21 +1441,21 @@ video::-webkit-media-controls {
     transform: translate3d(0, -20px, 0);
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s; }
-  /* line 101, waldemar-website/scss/sections/section4.scss */
+  /* line 101, waldemar website/scss/sections/section4.scss */
   #section4 .grid__item:hover .grid__title {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
-  /* line 106, waldemar-website/scss/sections/section4.scss */
+  /* line 106, waldemar website/scss/sections/section4.scss */
   #section4 .layer {
     position: relative;
     display: block; }
-  /* line 110, waldemar-website/scss/sections/section4.scss */
+  /* line 110, waldemar website/scss/sections/section4.scss */
   #section4 .layer:not(:first-child) {
     position: absolute;
     top: 0;
     left: 0; }
-  /* line 116, waldemar-website/scss/sections/section4.scss */
+  /* line 116, waldemar website/scss/sections/section4.scss */
   #section4 .isolayer--shadow .grid__link::before {
     content: '';
     position: absolute;
@@ -1473,40 +1473,40 @@ video::-webkit-media-controls {
     transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
-  /* line 134, waldemar-website/scss/sections/section4.scss */
+  /* line 134, waldemar website/scss/sections/section4.scss */
   #section4 .isolayer--shadow .grid__item:hover .grid__link::before {
     opacity: 0.2;
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.8);
     -webkit-transform: translateZ(-1px) scale(1);
     transform: translateZ(-1px) scale(1); }
-  /* line 142, waldemar-website/scss/sections/section4.scss */
+  /* line 142, waldemar website/scss/sections/section4.scss */
   #section4 .isolayer--deco1 {
     width: 1200px;
     height: 900px; }
-  /* line 147, waldemar-website/scss/sections/section4.scss */
+  /* line 147, waldemar website/scss/sections/section4.scss */
   #section4 .isolayer--deco1 .grid__link .layer:first-child:not(img) {
     background: #ac5cf5; }
-  /* line 150, waldemar-website/scss/sections/section4.scss */
+  /* line 150, waldemar website/scss/sections/section4.scss */
   #section4 .isolayer--deco1 .grid__link .layer:nth-child(2):not(img) {
     background: #5db4eb; }
-  /* line 153, waldemar-website/scss/sections/section4.scss */
+  /* line 153, waldemar website/scss/sections/section4.scss */
   #section4 .isolayer--deco1 .grid__link .layer:nth-child(3):not(img) {
     background: #5debb4; }
-  /* line 156, waldemar-website/scss/sections/section4.scss */
+  /* line 156, waldemar website/scss/sections/section4.scss */
   #section4 .isolayer--deco1 .grid__link div.layer {
     width: 370px;
     height: 270px;
     opacity: 0.4; }
-  /* line 161, waldemar-website/scss/sections/section4.scss */
+  /* line 161, waldemar website/scss/sections/section4.scss */
   #section4 .isolayer--deco1 .grid__item {
     width: 400px;
     height: 300px;
     padding: 15px; }
-  /* line 166, waldemar-website/scss/sections/section4.scss */
+  /* line 166, waldemar website/scss/sections/section4.scss */
   #section4 .isolayer--deco1 .grid__item:nth-child(2) {
     margin-top: 150px; }
 
-/* line 1, waldemar-website/scss/sections/section7.scss */
+/* line 1, waldemar website/scss/sections/section7.scss */
 #section7 {
   color: slategray; }
 
@@ -1517,48 +1517,48 @@ video::-webkit-media-controls {
  *
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  */
-/* line 13, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 13, waldemar website/scss/vendors/_jquery.fullPage.scss */
 html.fp-enabled {
   margin: 0;
   padding: 0;
   overflow: hidden;
   -webkit-tap-highlight-color: transparent; }
 
-/* line 20, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 20, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-enabled body {
   margin: 0;
   padding: 0;
   overflow: hidden;
   -webkit-tap-highlight-color: transparent; }
 
-/* line 27, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 27, waldemar website/scss/vendors/_jquery.fullPage.scss */
 #superContainer {
   height: 100%;
   position: relative;
   -ms-touch-action: none;
   touch-action: none; }
 
-/* line 33, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 33, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-section {
   position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 39, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 39, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-slide {
   float: left;
   height: 100%;
   display: block; }
 
-/* line 44, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 44, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-slidesContainer {
   height: 100%;
   display: block;
   float: left;
   position: relative; }
 
-/* line 50, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 50, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-slides {
   z-index: 1;
   height: 100%;
@@ -1567,26 +1567,26 @@ html.fp-enabled {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
 
-/* line 58, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 58, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-section.fp-table {
   display: table;
   table-layout: fixed;
   width: 100%; }
 
-/* line 63, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 63, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-slide.fp-table {
   display: table;
   table-layout: fixed;
   width: 100%; }
 
-/* line 68, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 68, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-tableCell {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
   height: 100%; }
 
-/* line 74, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 74, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-controlArrow {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1604,38 +1604,38 @@ html.fp-enabled {
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-/* line 91, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 91, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-controlArrow.fp-prev {
   left: 15px;
   width: 0;
   border-width: 38.5px 34px 38.5px 0;
   border-color: transparent #fff transparent transparent; }
 
-/* line 97, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 97, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-controlArrow.fp-next {
   right: 15px;
   border-width: 38.5px 0 38.5px 34px;
   border-color: transparent transparent transparent #fff; }
 
-/* line 102, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 102, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-scrollable {
   overflow: hidden;
   position: relative; }
 
-/* line 106, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 106, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-scroller {
   overflow: hidden; }
 
-/* line 109, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 109, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .iScrollIndicator {
   border: 0 !important; }
 
-/* line 112, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 112, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-notransition {
   -webkit-transition: none !important;
   transition: none !important; }
 
-/* line 116, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 116, waldemar website/scss/vendors/_jquery.fullPage.scss */
 #fp-nav {
   position: fixed;
   z-index: 100;
@@ -1643,18 +1643,18 @@ html.fp-enabled {
   top: 50%;
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0); }
-  /* line 123, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+  /* line 123, waldemar website/scss/vendors/_jquery.fullPage.scss */
   #fp-nav ul {
     margin: 0;
     padding: 0; }
-    /* line 126, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+    /* line 126, waldemar website/scss/vendors/_jquery.fullPage.scss */
     #fp-nav ul li {
       display: block;
       width: 14px;
       height: 13px;
       margin: 7px;
       position: relative; }
-      /* line 132, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+      /* line 132, waldemar website/scss/vendors/_jquery.fullPage.scss */
       #fp-nav ul li a {
         display: block;
         position: relative;
@@ -1663,7 +1663,7 @@ html.fp-enabled {
         height: 100%;
         cursor: pointer;
         text-decoration: none; }
-        /* line 140, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+        /* line 140, waldemar website/scss/vendors/_jquery.fullPage.scss */
         #fp-nav ul li a span {
           border-radius: 50%;
           position: absolute;
@@ -1679,30 +1679,30 @@ html.fp-enabled {
           -moz-transition: all 0.1s ease-in-out;
           -o-transition: all 0.1s ease-in-out;
           transition: all 0.1s ease-in-out; }
-      /* line 158, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+      /* line 158, waldemar website/scss/vendors/_jquery.fullPage.scss */
       #fp-nav ul li a.active span {
         height: 12px;
         width: 12px;
         margin: -6px 0 0 -6px;
         border-radius: 100%; }
-      /* line 167, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+      /* line 167, waldemar website/scss/vendors/_jquery.fullPage.scss */
       #fp-nav ul li:hover a.active span {
         height: 12px;
         width: 12px;
         margin: -6px 0 0 -6px;
         border-radius: 100%; }
-      /* line 175, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+      /* line 175, waldemar website/scss/vendors/_jquery.fullPage.scss */
       #fp-nav ul li:hover a span {
         width: 10px;
         height: 10px;
         margin: -5px 0px 0px -5px; }
-      /* line 181, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+      /* line 181, waldemar website/scss/vendors/_jquery.fullPage.scss */
       #fp-nav ul li:hover .fp-tooltip {
         -webkit-transition: opacity 0.2s ease-in;
         transition: opacity 0.2s ease-in;
         width: auto;
         opacity: 1; }
-      /* line 188, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+      /* line 188, waldemar website/scss/vendors/_jquery.fullPage.scss */
       #fp-nav ul li .fp-tooltip {
         position: absolute;
         top: -2px;
@@ -1716,22 +1716,22 @@ html.fp-enabled {
         opacity: 0;
         width: 0;
         cursor: pointer; }
-      /* line 202, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+      /* line 202, waldemar website/scss/vendors/_jquery.fullPage.scss */
       #fp-nav ul li .fp-tooltip.right {
         right: 20px; }
-      /* line 205, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+      /* line 205, waldemar website/scss/vendors/_jquery.fullPage.scss */
       #fp-nav ul li .fp-tooltip.left {
         left: 20px; }
 
-/* line 211, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 211, waldemar website/scss/vendors/_jquery.fullPage.scss */
 #fp-nav.right {
   right: 17px; }
 
-/* line 214, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 214, waldemar website/scss/vendors/_jquery.fullPage.scss */
 #fp-nav.left {
   left: 17px; }
 
-/* line 217, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 217, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-slidesNav {
   position: absolute;
   z-index: 4;
@@ -1740,11 +1740,11 @@ html.fp-enabled {
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
-  /* line 225, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+  /* line 225, waldemar website/scss/vendors/_jquery.fullPage.scss */
   .fp-slidesNav ul {
     margin: 0;
     padding: 0; }
-    /* line 228, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+    /* line 228, waldemar website/scss/vendors/_jquery.fullPage.scss */
     .fp-slidesNav ul li {
       display: block;
       width: 14px;
@@ -1752,7 +1752,7 @@ html.fp-enabled {
       margin: 7px;
       position: relative;
       display: inline-block; }
-      /* line 235, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+      /* line 235, waldemar website/scss/vendors/_jquery.fullPage.scss */
       .fp-slidesNav ul li a {
         display: block;
         position: relative;
@@ -1761,7 +1761,7 @@ html.fp-enabled {
         height: 100%;
         cursor: pointer;
         text-decoration: none; }
-        /* line 243, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+        /* line 243, waldemar website/scss/vendors/_jquery.fullPage.scss */
         .fp-slidesNav ul li a span {
           border-radius: 50%;
           position: absolute;
@@ -1777,60 +1777,60 @@ html.fp-enabled {
           -moz-transition: all 0.1s ease-in-out;
           -o-transition: all 0.1s ease-in-out;
           transition: all 0.1s ease-in-out; }
-      /* line 261, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+      /* line 261, waldemar website/scss/vendors/_jquery.fullPage.scss */
       .fp-slidesNav ul li a.active span {
         height: 12px;
         width: 12px;
         margin: -6px 0 0 -6px;
         border-radius: 100%; }
-      /* line 270, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+      /* line 270, waldemar website/scss/vendors/_jquery.fullPage.scss */
       .fp-slidesNav ul li:hover a.active span {
         height: 12px;
         width: 12px;
         margin: -6px 0 0 -6px;
         border-radius: 100%; }
-      /* line 278, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+      /* line 278, waldemar website/scss/vendors/_jquery.fullPage.scss */
       .fp-slidesNav ul li:hover a span {
         width: 10px;
         height: 10px;
         margin: -5px 0px 0px -5px; }
 
-/* line 288, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 288, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-slidesNav.bottom {
   bottom: 17px; }
 
-/* line 291, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 291, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-slidesNav.top {
   top: 17px; }
 
-/* line 296, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 296, waldemar website/scss/vendors/_jquery.fullPage.scss */
 #fp-nav.fp-show-active a.active + .fp-tooltip {
   -webkit-transition: opacity 0.2s ease-in;
   transition: opacity 0.2s ease-in;
   width: auto;
   opacity: 1; }
 
-/* line 304, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 304, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-auto-height.fp-section {
   height: auto !important; }
 
-/* line 308, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 308, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-auto-height .fp-slide {
   height: auto !important; }
 
-/* line 311, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 311, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-auto-height .fp-tableCell {
   height: auto !important; }
 
-/* line 316, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 316, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-responsive .fp-auto-height-responsive.fp-section {
   height: auto !important; }
 
-/* line 320, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 320, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-responsive .fp-auto-height-responsive .fp-slide {
   height: auto !important; }
 
-/* line 323, waldemar-website/scss/vendors/_jquery.fullPage.scss */
+/* line 323, waldemar website/scss/vendors/_jquery.fullPage.scss */
 .fp-responsive .fp-auto-height-responsive .fp-tableCell {
   height: auto !important; }
 
