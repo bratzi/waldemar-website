@@ -1,6 +1,5 @@
 //CREATE IDEAS
 #section2 {
-    
     .icon {
         margin-bottom: 50px;
         width: 100px;
@@ -27,9 +26,9 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22e1ff', endColorstr='#625eb1', GradientType=1);
         /* IE6-9 fallback on horizontal gradient */
     }
-    
+
     .ideaBox {
-       
+
         cursor: pointer;
         border: 2px solid;
         border-radius: 12px;
@@ -46,11 +45,11 @@
                 color: #3A506B;
                 transition: all 1000ms ease-in-out;
                 transform: scale(1);
-            }        
-            p{
-                color:$darker;
             }
-        } 
+            p {
+                color: $darker;
+            }
+        }
         h4 {
             color: #3A506B;
             font-size: 25px;
@@ -63,8 +62,7 @@
             font-size: 15px;
             margin: 10px 15px 30px 15px;
         }
-        .icon-wrapper {
-        }
+        .icon-wrapper {}
         .cycle {
             opacity: 0;
             -webkit-transition: opacity .5s ease-in-out;
@@ -90,7 +88,7 @@
     }
     .listwrapper {
         padding: 3px;
-        background-color:$mid;
+        background-color: $mid;
         line-height: 1.5em;
         font-size: 1.1em;
         border-bottom-left-radius: 12px;
@@ -123,7 +121,7 @@
                 transition: all 1000ms ease-in-out;
                 transform: scale(1.5);
             }
-            .cycle{
+            .cycle {
                 filter: alpha(opacity=100);
                 opacity: 1;
             }

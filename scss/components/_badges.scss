@@ -1,0 +1,18 @@
+badge {
+    cursor: pointer;
+    padding: 2px 10px;
+    border: 1px solid $light;
+    border-radius: 6px;
+    font-size: 11pt;
+    white-space: nowrap;
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+    &:hover {
+        color: white;
+        background-color: $mid;
+        -webkit-transition: background-color 300ms linear;
+        -ms-transition: background-color 300ms linear;
+        transition: background-color 300ms linear;
+    }
+}
