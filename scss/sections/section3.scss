@@ -1,14 +1,12 @@
 //CODING
-#section3 {    
+#section3 {
     color: $light;
     font-size: 16pt;
     transition: 250ms all linear;
     box-shadow: inset 0px 0px 1500px rgba(0, 0, 0, 0.9);
-    
-    h2{
-        color:$highlight;
+    h2 {
+        color: $highlight;
     }
-    
     .col-xs-12 {
         p {
             margin-top: 25px;

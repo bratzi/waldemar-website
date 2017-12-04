@@ -39,7 +39,7 @@ body {
   font-weight: normal;
   font-style: normal; }
 
-/* line 10, waldemar website/scss/base/_typography.scss */
+/* line 9, waldemar website/scss/base/_typography.scss */
 h2 {
   padding: 0;
   margin: 0;
@@ -50,16 +50,16 @@ h2 {
   text-transform: uppercase;
   font-weight: 100;
   color: #1C2541; }
-  /* line 20, waldemar website/scss/base/_typography.scss */
+  /* line 19, waldemar website/scss/base/_typography.scss */
   h2 span {
     font-weight: 300;
     color: white; }
-  /* line 24, waldemar website/scss/base/_typography.scss */
+  /* line 23, waldemar website/scss/base/_typography.scss */
   h2 small {
     color: white;
     font-size: 24px; }
 
-/* line 30, waldemar website/scss/base/_typography.scss */
+/* line 28, waldemar website/scss/base/_typography.scss */
 .fa-heartbeat {
   color: red; }
 
@@ -1436,17 +1436,17 @@ badge {
   font-size: 16pt;
   transition: 250ms all linear;
   box-shadow: inset 0px 0px 1500px rgba(0, 0, 0, 0.9); }
-  /* line 8, waldemar website/scss/sections/section3.scss */
+  /* line 7, waldemar website/scss/sections/section3.scss */
   #section3 h2 {
     color: #6FFFE9; }
-  /* line 13, waldemar website/scss/sections/section3.scss */
+  /* line 11, waldemar website/scss/sections/section3.scss */
   #section3 .col-xs-12 p {
     margin-top: 25px;
     color: #3A506B;
     font-size: 24pt;
     text-transform: none;
     letter-spacing: 2pt; }
-  /* line 21, waldemar website/scss/sections/section3.scss */
+  /* line 19, waldemar website/scss/sections/section3.scss */
   #section3 #particles-js {
     -webkit-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
     transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
@@ -1471,6 +1471,11 @@ badge {
   /* line 14, waldemar website/scss/sections/section4.scss */
   #section4 .titles {
     padding: 5vmax 0 0 5vmax; }
+    /* line 16, waldemar website/scss/sections/section4.scss */
+    #section4 .titles p {
+      font-size: 21px;
+      font-weight: 100;
+      margin-bottom: 80px; }
 
 /* line 1, waldemar website/scss/sections/section7.scss */
 #section7 {
