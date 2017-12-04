@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,700');
 @font-face {
     font-family: 'theflower';
     src: url('theflowercity-webfont.woff2') format('woff2'), url('theflowercity-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 h2 {
     padding: 0;
     margin: 0;
@@ -23,4 +23,8 @@ h2 {
             color: white;
         }
     }
+}
+
+.fa-heartbeat {
+    color: red;
 }
