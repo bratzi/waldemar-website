@@ -1,24 +1,14 @@
 //CODING
-#section3 {
+#section3 {    
     color: $light;
     font-size: 16pt;
     transition: 250ms all linear;
-    box-shadow: inset 0px 0px 1500px rgba(0,0,0,0.9);
-    li {
-        font-weight: 600;
+    box-shadow: inset 0px 0px 1500px rgba(0, 0, 0, 0.9);
+    
+    h2{
+        color:$highlight;
     }
-    h2 {
-        font-size: 56pt;
-        color: $highlight;
-        font-weight: 100;
-        span {
-            color: $white;
-            font-size: 32pt;
-            text-transform: none;
-            letter-spacing: 2pt;
-        }
-    }
-
+    
     .col-xs-12 {
         p {
             margin-top: 25px;
@@ -28,31 +18,12 @@
             letter-spacing: 2pt;
         }
     }
-    badge {
-        cursor: pointer;
-        padding: 2px 10px;
-        border: 1px solid $light;
-        border-radius: 6px;
-        font-size: 11pt;
-        white-space: nowrap;
-        -webkit-transition: background-color 300ms linear;
-        -ms-transition: background-color 300ms linear;
-        transition: background-color 300ms linear;
-        &:hover {
-            color: white;
-            background-color: $mid;
-            -webkit-transition: background-color 300ms linear;
-            -ms-transition: background-color 300ms linear;
-            transition: background-color 300ms linear;
-        }
-    }
     #particles-js {
-        -webkit-transition-timing-function: cubic-bezier(0.42,0,0.58,1);
-        transition-timing-function: cubic-bezier(0.42,0,0.58,1);
+        -webkit-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+        transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
         position: absolute;
         z-index: 0;
         width: 115%;
-        height: 115%;        
+        height: 115%;
     }
- 
 }

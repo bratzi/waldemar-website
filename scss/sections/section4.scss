@@ -3,7 +3,6 @@
     background: linear-gradient(90deg, #58A8FB, #465683);
     overflow: hidden;
     position: relative;
-
     .section {
         overflow: hidden;
         position: relative;
@@ -12,33 +11,7 @@
         max-height: 1200px;
         padding: 7vmax;
     }
-    .titles {
-        padding: 5vmax 0 0 5vmax;
-        position: absolute;
-        z-index: 2000;
-        h2 {
-            small {
-                font-size: 26px;
-                color: white;
-            }
-        }
-        .hero {
-            color: $white;
-            font-size: 24pt;
-            letter-spacing: 2pt;
-            text-transform: uppercase;
-        }
-        .quote {
-            margin: 30px 0px;
-            letter-spacing: 1px;
-            font-weight: 100;
-            font-size: 24px;
-            font-family: 'Alegreya', serif;
-            span {
-                text-transform: uppercase;
-                font-weight: 600;
-            }
-        }
+    .titles{
+        padding: 5vmax 0 0 5vmax;        
     }
-
 }
