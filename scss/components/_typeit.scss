@@ -1,12 +1,13 @@
-.type-it-wrapper {
-    align-self: center;
-    height: 20px;
-}
-
 .type-it {
-    font-weight: 800;
+    font-weight: 100;
     color: $highlight;
     font-size: 4em;
     letter-spacing: -2px;
 }
- 
+
+.type-it-wrapper {
+    display: flex;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+}

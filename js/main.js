@@ -110,6 +110,4 @@ $(document).ready(function () {
         .tiType(' <strong>;-)</strong>');
 
     particlesJS.load('particles-js', 'assets/particlesjs.json', function () {});
-
-
 });
