@@ -7,26 +7,38 @@ body {
   color: white; }
 
 @media (max-width: 767px) {
-  /* line 5, waldemar-website/scss/base/_reset.scss */
+  /* line 6, waldemar-website/scss/base/_reset.scss */
   .fullpage {
-    width: calc(100% - 150px); } }
+    width: calc(100% - 150px); }
+    /* line 9, waldemar-website/scss/base/_reset.scss */
+    .fullpage .container {
+      width: 100%; } }
 
 @media (min-width: 768px) {
-  /* line 5, waldemar-website/scss/base/_reset.scss */
+  /* line 6, waldemar-website/scss/base/_reset.scss */
   .fullpage {
-    width: calc(100% - 150px); } }
+    width: calc(100% - 150px); }
+    /* line 15, waldemar-website/scss/base/_reset.scss */
+    .fullpage .container {
+      width: 100%; } }
 
 @media (min-width: 992px) {
-  /* line 5, waldemar-website/scss/base/_reset.scss */
+  /* line 6, waldemar-website/scss/base/_reset.scss */
   .fullpage {
-    width: calc(100% - 200px); } }
+    width: calc(100% - 200px); }
+    /* line 21, waldemar-website/scss/base/_reset.scss */
+    .fullpage .container {
+      width: 970px; } }
 
 @media (min-width: 1200px) {
-  /* line 5, waldemar-website/scss/base/_reset.scss */
+  /* line 6, waldemar-website/scss/base/_reset.scss */
   .fullpage {
-    width: calc(100% - 300px); } }
+    width: calc(100% - 300px); }
+    /* line 27, waldemar-website/scss/base/_reset.scss */
+    .fullpage .container {
+      width: 1170px; } }
 
-/* line 11, waldemar-website/scss/base/_reset.scss */
+/* line 33, waldemar-website/scss/base/_reset.scss */
 .scene {
   position: absolute !important;
   pointer-events: auto !important;
