@@ -1478,43 +1478,73 @@ badge {
     width: 115%;
     height: 115%; }
 
-/* line 2, waldemar-website/scss/sections/section4.scss */
-#section4 {
-  background: linear-gradient(90deg, #58A8FB, #465683);
-  overflow: hidden;
-  position: relative; }
-  /* line 6, waldemar-website/scss/sections/section4.scss */
-  #section4 .section {
-    overflow: hidden;
-    position: relative;
-    height: 100vh;
-    min-height: 800px;
-    max-height: 1200px;
-    padding: 7vmax; }
-  /* line 14, waldemar-website/scss/sections/section4.scss */
-  #section4 .titles {
-    padding: 5vmax 0 0 5vmax; }
-    /* line 16, waldemar-website/scss/sections/section4.scss */
-    #section4 .titles p {
-      font-size: 21px;
-      font-weight: 100;
-      margin-bottom: 80px; }
+/* line 3, waldemar-website/scss/sections/section4.scss */
+#section4 .fp-bg {
+  background-image: url("/img/bg_seo.png");
+  background-size: cover;
+  background-position: center 70%; }
+
+/* line 8, waldemar-website/scss/sections/section4.scss */
+#section4 .video-overlay {
+  opacity: .85;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#22e1ff+0,625eb1+100 */
+  background: #22e1ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #22e1ff 0%, #625eb1 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #22e1ff 0%, #625eb1 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #22e1ff 0%, #625eb1 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22e1ff', endColorstr='#625eb1', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */ }
+
+/* line 22, waldemar-website/scss/sections/section4.scss */
+#section4 .titles {
+  z-index: 4;
+  position: relative;
+  padding: 5vmax 0 0 5vmax; }
+  /* line 26, waldemar-website/scss/sections/section4.scss */
+  #section4 .titles p {
+    font-size: 21px;
+    font-weight: 100;
+    margin-bottom: 80px; }
+
+/* line 32, waldemar-website/scss/sections/section4.scss */
+#section4 .isolayer {
+  z-index: 4;
+  position: absolute; }
 
 /* line 3, waldemar-website/scss/sections/section5.scss */
 #section5 .fp-bg {
-  background-image: url("/img/5.jpeg");
+  background-image: url("/img/exp_bg3.jpg");
   background-size: cover;
   background-position: center 80%; }
 
 /* line 2, waldemar-website/scss/sections/section6.scss */
 #section6 .fp-bg {
-  background-image: url("/img/6.png");
+  background-image: url("/img/exp_bg4.jpg");
   background-size: cover;
   background-position: center 80%; }
 
 /* line 1, waldemar-website/scss/sections/section7.scss */
 #section7 {
-  color: slategray; }
+  color: white; }
+  /* line 2, waldemar-website/scss/sections/section7.scss */
+  #section7 .container {
+    background-color: rgba(0, 0, 0, 0.3); }
+  /* line 5, waldemar-website/scss/sections/section7.scss */
+  #section7 .fp-bg {
+    background-image: url(/img/bg_poster_section2.jpg);
+    background-size: cover;
+    background-position: center 80%; }
+  /* line 10, waldemar-website/scss/sections/section7.scss */
+  #section7 h3 {
+    font-size: 4em;
+    color: #3A506B; }
+  /* line 14, waldemar-website/scss/sections/section7.scss */
+  #section7 .lead {
+    color: #3A506B; }
 
 /*!
  * fullPage 2.9.4

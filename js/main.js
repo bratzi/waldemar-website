@@ -34,8 +34,7 @@ $(document).ready(function () {
         parallax: true,
         parallaxOptions: {
             type: 'reveal',
-            percentage: 62,
-            property: 'translate'
+            percentage: 68
         },
         menu: '#menu',
         lockAnchors: false,

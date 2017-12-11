@@ -1,3 +1,18 @@
-#section7{
-    color:slategray;
+#section7 {
+    .container{
+        background-color: rgba(000, 000, 000, 0.3);
+    }
+    .fp-bg {
+        background-image: url(/img/bg_poster_section2.jpg);
+        background-size: cover;
+        background-position: center 80%;
+    }
+    h3 {
+        font-size: 4em;
+        color: $mid;
+    }
+    .lead {
+        color: $mid
+    }
+    color:white;
 }
