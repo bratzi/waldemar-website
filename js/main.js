@@ -4,10 +4,10 @@ $(document).ready(function () {
     var parallaxInstance1 = new Parallax(scene1);
     parallaxInstance1.scalar(8, 8);
 
-//    var scene2 = document.getElementById('scene2');
-//    var parallaxInstance2 = new Parallax(scene2);
-//    parallaxInstance2.limit(0);
-//    parallaxInstance2.invert(5, 5);
+    //    var scene2 = document.getElementById('scene2');
+    //    var parallaxInstance2 = new Parallax(scene2);
+    //    parallaxInstance2.limit(0);
+    //    parallaxInstance2.invert(5, 5);
 
     setTimeout(function () {
         $('body').addClass('loaded');
@@ -30,7 +30,12 @@ $(document).ready(function () {
     }, 1500);
 
     $('#fullpage').fullpage({
-        //Navigation
+        parallaxKey: 'd2FsZGVtYXItaGVsd2ljaC5kZV9DOTBjR0Z5WVd4c1lYZz16T24=',
+        parallax: true,
+        parallaxOptions: {
+            type: 'reveal',
+            percentage: 68
+        },
         menu: '#menu',
         lockAnchors: false,
         anchors: ['Welcome', 'Skills', 'Ideas', 'Coding', 'UXUI', 'SEO', 'Contact', 'Impressum'],

@@ -13,7 +13,6 @@
     <!--<meta name="Resource-type" content="Document" />-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="js/UXUI/modernizr.custom.js"></script>
@@ -159,6 +158,7 @@
 
         <!--SECTION 0 - STARTPAGE-->
         <div class="section" id="section0">
+            <div class="fp-bg"></div>
             <div class="video-overlay"></div>
             <video id="myVideo" loop muted data-autoplay preload="auto" poster="img/bg_poster.jpg">
                 <source src="img/code.mp4" type="video/mp4" />
@@ -166,16 +166,16 @@
                 <source src="img/code.ogv" type="video/ogg" /> 
             </video>
             <div class="layer text-center">
-                    <img class="img-responsive center-block" src="img/logo_w.png">
-                    <img src="img/avatar.jpg" alt="" class="img-responsive center-block img-circle avatar" style="margin-top:35px">
-                    <h1><strong>.NET- & FrontEnd </strong>Developer</h1>
-                    <p class="infotext"><small>Currently working at AFS-Software GmbH & Co. KG in Bad Hersfeld (GER)</small></p>
-                    <a class="github-button" href="https://github.com/bratzi" data-size="large" aria-label="Follow @bratzi on GitHub">Follow @bratzi</a>
-                    <a href="https://www.xing.com/profile/Waldemar_Helwich" target="_blank" rel="me">
+                <img class="img-responsive center-block" src="img/logo_w.png">
+                <img src="img/avatar.jpg" alt="" class="img-responsive center-block img-circle avatar" style="margin-top:35px">
+                <h1><strong>.NET- & FrontEnd </strong>Developer</h1>
+                <p class="infotext"><small>Currently working at AFS-Software GmbH & Co. KG in Bad Hersfeld (GER)</small></p>
+                <a class="github-button" href="https://github.com/bratzi" data-size="large" aria-label="Follow @bratzi on GitHub">Follow @bratzi</a>
+                <a href="https://www.xing.com/profile/Waldemar_Helwich" target="_blank" rel="me">
                     <img style="margin:-21px 0px 0px 20px" src="https://www.xing.com/img/buttons/4_de_btn.gif" width="118" height="23" alt="Waldemar Helwich"></a>
-                    <div class="text-center type-it-wrapper">
-                        <span class="type-it"></span>
-                    </div>
+                <div class="text-center type-it-wrapper">
+                    <span class="type-it"></span>
+                </div>
                 <div class="footer">
                     <div class="scrollanimation">
                         <a><span></span><small>scroll or use arrows</small></a>
@@ -186,6 +186,7 @@
 
         <!--SECTION 1 - SKILLS-->
         <div class="section" id="section1">
+            <div class="fp-bg"></div>
             <div class="container-fluid">
                 <div class="row-fluid">
                     <div id="exp1" class="col-xs-6 col-md-6 exp-box">
@@ -242,6 +243,7 @@
 
         <!--SECTION 2 - CREATE IDEAS-->
         <div class="section" id="section2">
+            <div class="fp-bg"></div>
             <div class="video-overlay"></div>
             <video id="myVideo" loop muted data-autoplay preload="auto" poster="img/bg_poster_section2.jpg">
                 <source src="img/bg_poster_section2.mp4" type="video/mp4" />
@@ -330,6 +332,7 @@
 
         <!--SECTION 3 - CODING-->
         <div class="section" id="section3">
+            <div class="fp-bg"></div>
             <div class="scene" id="scene1">
                 <div data-depth="1.5" s id="particles-js"></div>
             </div>
@@ -467,7 +470,9 @@
         </div>
 
         <!--SECTION 4 - UX/UI-->
-        <div class="section " id="section4">
+        <div class="section " id="section4">           
+            <div class="video-overlay"></div>
+            <div class="fp-bg"></div>
             <div class="titles">
                 <h2><span>UX / UI </span> & Design<br><small>you can see it ... you can <i class="fa fa-heartbeat" aria-hidden="true"></i> it</small></h2>
                 <p>Its not only about <span><em>nice artwork</em></span>...<br><em>...but also a good answer to communicational issues.</em></p>
@@ -601,13 +606,18 @@
         </div>
 
         <!--SECTION 5 - SEO-->
-        <div class="section" id="section5"></div>
+        <div class="section" id="section5">
+            <div class="fp-bg"></div>
+        </div>
 
         <!--SECTION 6 - CONTACT-->
-        <div class="section" id="section6"></div>
+        <div class="section" id="section6">
+            <div class="fp-bg"></div>
+        </div>
 
         <!--SECTION 7 - Impressum-->
         <div class="section" id="section7">
+            <div class="fp-bg"></div>
             <div class="container">
                 <h3>Impressum</h3>
                 <p class="lead">Angaben gem&auml;&szlig; &sect; 5 TMG:</p>
@@ -625,6 +635,8 @@
                         <td>w.helwich@gmail.com</td>
                     </tr>
                 </table>
+                <br>
+                <br>
                 <div class="row">
                     <div class="col-md-4 ">
                         <p class="lead">Haftung f&uuml;r Inhalte</p>
@@ -653,7 +665,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/vendors/scrolloverflow.js"></script>
-    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+    <!--<script type="text/javascript" src="js/jquery.fullPage.js"></script>-->
+    <script type="text/javascript" src="js/fullpage.parallax.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullpage.extensions.min.js"></script>
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="js/particles.js"></script>
