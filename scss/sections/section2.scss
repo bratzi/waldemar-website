@@ -9,10 +9,9 @@
     p {
         color: $dark;
         font-size: 16pt;
-        font-weight: 100;
+        font-weight: 400;
         margin-bottom: 80px;
     }
-    
     .video-overlay {
         opacity: .6;
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#22e1ff+0,625eb1+100 */
@@ -43,10 +42,13 @@
             .fa {
                 color: #3A506B;
                 transition: all 1000ms ease-in-out;
-                transform: scale(1);
+                
             }
             p {
                 color: $darker;
+                font-size: 17px;
+                letter-spacing: 1px;
+                margin: 10px 15px 30px 15px;
             }
         }
         h4 {
@@ -56,10 +58,6 @@
             span {
                 font-weight: 600;
             }
-        }
-        p {
-            font-size: 16px;
-            margin: 10px 15px 30px 15px;
         }
         .icon-wrapper {}
         .cycle {
@@ -88,10 +86,12 @@
     .listwrapper {
         padding: 3px;
         background-color: $mid;
-        line-height: 1.5em;
-        font-size: 1.1em;
+        line-height: 2em;
+        font-size: .65em;
         border-bottom-left-radius: 12px;
         border-bottom-right-radius: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
         i {
             line-height: inherit
         }
@@ -116,9 +116,9 @@
             transition-property: transform opacity;
         }
         &:hover {
-            .fa {
+            .fa-5x {
                 transition: all 1000ms ease-in-out;
-                transform: scale(1.5);
+                transform: scale(1.3);
             }
             .cycle {
                 filter: alpha(opacity=100);
