@@ -1,5 +1,28 @@
 $(document).ready(function () {
 
+    $("#ideabox1").click(function () {
+        if ($("#collapsebutton1").css('transform') == 'none') {
+            $("#collapsebutton1").css({'transform': 'rotate(-180deg)'});
+        } else {
+            $("#collapsebutton1").css({'transform': ''});
+        };
+    });
+    
+        $("#ideabox2").click(function () {
+        if ($("#collapsebutton2").css('transform') == 'none') {
+            $("#collapsebutton2").css({'transform': 'rotate(-180deg)'});
+        } else {
+            $("#collapsebutton2").css({'transform': ''});
+        };
+    });
+        $("#ideabox3").click(function () {
+        if ($("#collapsebutton3").css('transform') == 'none') {
+            $("#collapsebutton3").css({'transform': 'rotate(-180deg)'});
+        } else {
+            $("#collapsebutton3").css({'transform': ''});
+        };
+    });
+
     var scene1 = document.getElementById('scene1');
     var parallaxInstance1 = new Parallax(scene1);
     parallaxInstance1.scalar(8, 8);
