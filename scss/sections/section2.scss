@@ -6,13 +6,13 @@
         height: 100px;
         color: $blue;
     }
-
     p {
         color: $dark;
-        font-size:16pt;
+        font-size: 16pt;
         font-weight: 100;
         margin-bottom: 80px;
     }
+    
     .video-overlay {
         opacity: .6;
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#22e1ff+0,625eb1+100 */
@@ -27,9 +27,7 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22e1ff', endColorstr='#625eb1', GradientType=1);
         /* IE6-9 fallback on horizontal gradient */
     }
-
     .ideaBox {
-
         cursor: pointer;
         border: 2px solid;
         border-radius: 12px;

@@ -14,7 +14,7 @@
         padding: 0;
         margin: 0;
     }
-    .lead{
+    .lead {
         text-transform: uppercase;
         letter-spacing: 3px;
     }
@@ -81,7 +81,6 @@
     -moz-transition: opacity 500ms ease-out;
     -o-transition: opacity 500ms ease-out;
     transition: opacity 500ms ease-out;
-    
 }
 
 #exp1:before,
@@ -108,6 +107,7 @@
 #exp3:hover:before,
 #exp4:hover:before {
     transform: scale(1.5);
+    filter: blur(2px);
 }
 
 .img-overlay {
