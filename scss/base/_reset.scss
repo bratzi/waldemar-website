@@ -1,19 +1,20 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: white;
+    font-size: 17px;
 }
 
 .fullpage {
     @media(max-width: 767px) {
         width:calc(100% - 150px);
-        .container{
-            width:100%;
+        .container {
+            width: 100%;
         }
     }
     @media(min-width:768px) {
         width: calc(100% - 150px);
         .container {
-             width:100%;
+            width: 100%;
         }
     }
     @media(min-width:992px) {

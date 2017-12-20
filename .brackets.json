@@ -12,7 +12,7 @@
                 "sourceComments": true,
                 "outputStyle": "Nested"
             },
-            "linting.collapsed": false,
+            "linting.collapsed": true,
             "useTabChar": false,
             "mikaeljorhult.bracketsPHPLintTools.php-available": false,
             "extensions.sort": "downloadCount",
