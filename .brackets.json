@@ -9,8 +9,8 @@
                 ],
                 "imagePath": null,
                 "outputDir": "../css/",
-                "sourceComments": true,
-                "outputStyle": "Nested"
+                "sourceComments": false,
+                "outputStyle": "compressed"
             },
             "linting.collapsed": true,
             "useTabChar": false,
