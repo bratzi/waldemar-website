@@ -67,7 +67,7 @@ $(document).ready(function () {
         navigationPosition: 'right',
         navigationTooltips: [''],
         showActiveTooltip: false,
-        slidesNavigation: true,
+        slidesNavigation: false,
         slidesNavPosition: 'bottom',
         verticalCentered: false,
         sectionsColor: ['#fff', '#fff', '#fff', '#090f21', '#fff', '#fff', '#fff', '#fff']
